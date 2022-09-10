@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=El+Messiri:wght@500&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "El Messiri", sans-serif;
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
