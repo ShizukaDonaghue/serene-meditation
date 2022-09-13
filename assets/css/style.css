@@ -196,6 +196,8 @@ form p {
 
    #logo {
         grid-column: 1 / 1;
+        text-align: left;
+        margin-left: 2.2rem;
         font-size: 220%;
    }
 
@@ -207,7 +209,7 @@ form p {
         grid-column: 3;
         display: flex;
         justify-content: flex-end;
-        margin-right: 2rem;
+        padding: 1.3rem;       
    }
 
    nav a {
