@@ -1,19 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=El+Messiri:wght@500&display=swap');
 
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-size: 1.6rem;
-    font-family: "El Messiri", sans-serif;
-    font-weight: 500;
-}
-
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+:root {
+    --blue-grey: #3e4f60;
+    --pale-blue: #bfd9ec;
+}
+
+/*
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*/
+
+body {
+    font-family: "El Messiri", sans-serif;
+    font-weight: 500;
+    background: var(--pale-blue);
+}
+
+header {
+    background: var(--blue-grey);
+    text-align: center;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo {
+    letter-spacing: 0.1rem;
+}
+
+nav {
+    background: var(--blue-grey);
+    position: absolute;
+    text-align: right;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    display: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 0.2em;
+    margin-right: 1rem;
+    letter-spacing: 0.05rem; 
+}
+
+/*
+nav a {
+    font-size: 1.1rem;
+}
+*/
+
+nav a:hover {
+    color: #92c0e4;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.nav-menu:checked ~ nav {
+    display: block;
+}
+
+.nav-menu-hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 120%;
+}
+
+#hero-outer {
+    position: relative;
+}
+
+#hero-image {
+    height: 300px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") center center / cover no-repeat;
+}
+
+#hero-quote {
+    font-family: "Alex Brush", sans-serif;
+    position:absolute;
+    bottom: 0.8rem;
+    color: #bfd9ec;
+    text-align: center;
+}
+
+#hero-quote q {
+    font-size: 120%;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    right: 1rem;
+ }
+
+@media screen and (min-width: 768px) {
+   .nav-menu-hamburger {
+        display: none;
+   } 
+
+   header {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+   }
+
+   #logo {
+        grid-column: 1 / 1;
+        font-size: 220%;
+   }
+
+   nav {
+        position: relative;
+        text-align: right;
+        top: initial;
+        left: initial;
+        grid-column: 3;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 1rem;
+   }
+
+   nav a {
+        opacity: 1;
+   }
+
+   nav ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 0.2rem;
+    }
+
+    #hero-image {
+        height: 600px;
+    }
+}
 

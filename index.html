@@ -6,41 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Meditation can give you an inner sense of calm and peace. See how you can learn easily to practise meditation wherever you are with Serene Meditation!">
     <meta name="keywords" content="meditation, meditation benefits, meditation techniques, mindfulness">
+    
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Serene Meditation</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html">
-            <h1>Serene Meditation</h1>
+        <a href="index.html" aria-label="Link to the home screen (opens in the same tab)">
+                <h1 id="logo">Serene Meditation</h1>
         </a>
+        <input type="checkbox" id="nav-menu" class="nav-menu">
+        <label for="nav-menu" class="nav-menu-hamburger">
+            <span><i class="fa-solid fa-bars"></i></span>
+        </label>
         <nav>
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="#benefits" aria-label="Link to the benefit section (opens in the same tab)">Benefits</a>
                 </li>
                 <li>
-                    <a href="#benefits">Benefits</a>
+                    <a href="#techniques" aria-label="Link to the techniques section (opens in the same tab)">Techniques</a>
                 </li>
                 <li>
-                    <a href="#techniques">Techniques</a>
+                    <a href="#tips-tricks" aria-label="Link to the tips & tricks section (opens in the same tab)">Tips & Tricks</a>
                 </li>
                 <li>
-                    <a href="#tips-tricks">Tips & Tricks</a>
-                </li>
-                <li>
-                    <a href="#feedback">Feedback</a>
+                    <a href="#feedback" aria-label="Link to the feedback section (opens in the same tab)">Feedback</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section>Main image and introduction</section>
+
+    
+    <section id="hero-outer">
+        <div id="hero-image"></div> 
+        <div id="hero-quote">
+            <q>Learn to be calm and you will always be happy</q>
+            <footer>Paramahansa Yogananda</footer>
+        </div>
+    </section>
+
     <section>What is meditation?</section>
     <section id="benefits">Benefits of meditation</section>
-    <section id="techniques">Meditation techniques</section>
+    <section id="techniques">Meditation Techniques</section>
     <section id="tips-tricks">Tips and tricks</section>
     <section id="feedback">Feedback</section>
     <footer>Social links here</footer>
-</body>
+    
+
+    <!-- font awesome script-->
+    <script src="https://kit.fontawesome.com/dc0882e7d5.js" crossorigin="anonymous"></script>
 </html>
