@@ -7,20 +7,22 @@
 }
 
 :root {
-    --blue-grey: #3e4f60;
-    --pale-blue: #bfd9ec;
+    --blue-grey: #092039;
+    --pale-blue: #B2D5F0;
+    --pale-pink: #F3E4E4;
+    --dark-grey: #01212F;
 }
 
-/*
 *, *::before, *::after {
     box-sizing: border-box;
 }
-*/
 
 body {
     font-family: "El Messiri", sans-serif;
-    font-weight: 500;
-    background: var(--pale-blue);
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    background: var(--pale-pink);
+    color: var(--dark-grey);
 }
 
 header {
@@ -41,7 +43,7 @@ header a {
 }
 
 nav {
-    background: var(--blue-grey);
+    background-color: rgba(9,32,57, 0.8);
     position: absolute;
     text-align: right;
     top: 100%;
@@ -69,7 +71,7 @@ nav a {
 */
 
 nav a:hover {
-    color: #92c0e4;
+    color: var(--pale-blue);
 }
 
 .nav-menu {
@@ -106,20 +108,36 @@ nav a:hover {
 #hero-quote {
     font-family: "Alex Brush", sans-serif;
     position:absolute;
-    bottom: 1rem;
+    bottom: 3%;
     color: #bfd9ec;
     width: 100%;
     text-align: center;
 }
 
 #hero-quote q {
-    font-size: 120%;
-    font-weight: 600;
+    font-size: 130%;
+    font-weight: 700;
     letter-spacing: 0.05rem;
 }
 
 #hero-quote footer {
-    font-size: 80%;
+    font-size: 70%;
+}
+
+section {
+    margin: 0 1rem 1.5rem 1rem;
+}
+
+section > ul, ol {
+    margin-left: 1rem;
+}
+
+section ol li {
+    margin-bottom: 0.4rem;
+}
+
+p {
+    margin-bottom: 0.8rem;
 }
 
 @media screen and (min-width: 576px) {
