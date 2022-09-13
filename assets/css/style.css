@@ -17,10 +17,15 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
+    font-size: 1.6rem;
     font-family: "El Messiri", sans-serif;
     font-weight: 400;
-    letter-spacing: 0.01rem;
+    /* letter-spacing: 0.02rem; */
     background: var(--pale-pink);
     color: var(--dark-grey);
 }
@@ -53,22 +58,15 @@ nav {
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
+    margin-top: 0.8rem;
 }
 
 nav li {
-    margin-bottom: 0.2em;
-    margin-right: 1rem;
-    letter-spacing: 0.05rem; 
+    margin-bottom: 0.3em;
+    margin-right: 2rem;
+    letter-spacing: 0.1rem; 
 }
-
-/*
-nav a {
-    font-size: 1.1rem;
-}
-*/
 
 nav a:hover {
     color: var(--pale-blue);
@@ -86,8 +84,8 @@ nav a:hover {
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: 1rem;
-    margin-top: 0.1rem;
+    margin-right: 2rem;
+    margin-top: 0.2rem;
     height: 100%;
     display: flex;
     align-items: center;
@@ -107,9 +105,10 @@ nav a:hover {
 
 #hero-quote {
     font-family: "Alex Brush", sans-serif;
+    font-size: 95%;
     position:absolute;
     bottom: 3%;
-    color: #bfd9ec;
+    color: #fff;
     width: 100%;
     text-align: center;
 }
@@ -125,19 +124,22 @@ nav a:hover {
 }
 
 section {
-    margin: 0 1rem 1.5rem 1rem;
+    margin: 0 2rem 2rem 2rem;
 }
 
-section > ul, ol {
-    margin-left: 1rem;
+section ul {
+    margin-left: 2rem;
 }
 
 section ol li {
-    margin-bottom: 0.4rem;
+    margin-left: 2rem;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
 }
 
 p {
     margin-bottom: 0.8rem;
+    text-align: justify;
 }
 
 @media screen and (min-width: 576px) {
@@ -163,7 +165,7 @@ p {
         grid-column: 3;
         display: flex;
         justify-content: flex-end;
-        margin-right: 1rem;
+        margin-right: 2rem;
    }
 
    nav a {
@@ -174,7 +176,7 @@ p {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-top: 0.2rem;
+        margin-top: 0.3rem;
     }
 
     #hero-image {
@@ -183,7 +185,7 @@ p {
 
     #hero-quote {
         position:absolute;
-        bottom: 3rem;
+        bottom: 3%;
     }
 
     #hero-quote q {
