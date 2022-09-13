@@ -106,19 +106,23 @@ nav a:hover {
 #hero-quote {
     font-family: "Alex Brush", sans-serif;
     position:absolute;
-    bottom: 0.8rem;
+    bottom: 1rem;
     color: #bfd9ec;
+    width: 100%;
     text-align: center;
 }
 
 #hero-quote q {
     font-size: 120%;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: 0.05rem;
-    right: 1rem;
- }
+}
 
-@media screen and (min-width: 768px) {
+#hero-quote footer {
+    font-size: 80%;
+}
+
+@media screen and (min-width: 576px) {
    .nav-menu-hamburger {
         display: none;
    } 
@@ -157,6 +161,21 @@ nav a:hover {
 
     #hero-image {
         height: 600px;
+    }
+
+    #hero-quote {
+        position:absolute;
+        bottom: 3rem;
+    }
+
+    #hero-quote q {
+        font-size: 200%;
+        font-weight: 600;
+        letter-spacing: 0.05rem;
+    }
+    
+    #hero-quote footer {
+        font-size: 120%;
     }
 }
 
