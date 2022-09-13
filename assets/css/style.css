@@ -149,7 +149,7 @@ p {
     text-align: justify;
 }
 
-#contact {
+.contact {
     display: grid;
 }
 
@@ -158,19 +158,14 @@ form p {
     text-align: left;
 }
 
- input, textarea {
+.text-input {
     margin-top: 1.3rem;
     margin-bottom: 0.2rem;
     margin-left: 1rem;
- }
-
-.text-input {
-    margin-left: 1rem;
     margin-right: 1rem;
     font-family: "El Messiri", sans-serif;
-    font-size: 1.6rem;
-    
-}
+    font-size: 1.6rem; 
+ }
 
 #name, #email {
     line-height: 3rem;
@@ -179,14 +174,14 @@ form p {
 .submit {
     font-family: "El Messiri", sans-serif;
     font-weight: 500;
-    display: inline-block;
-    margin: 2rem; 
+    margin: 1.2rem 1rem; 
     background-color: var(--dark-grey);
     color: #fff;
     border-radius: 0.5rem;
     text-align: center;
     font-size: 1.6rem;
     line-height: 3rem;
+    width:15rem;
 }
 
 @media screen and (min-width: 576px) {
