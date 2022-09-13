@@ -115,12 +115,21 @@ nav a:hover {
 
 #hero-quote q {
     font-size: 130%;
-    font-weight: 700;
-    letter-spacing: 0.05rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
 }
 
 #hero-quote footer {
-    font-size: 70%;
+    font-size: 80%;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h4 {
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
 }
 
 section {
@@ -141,6 +150,17 @@ p {
     margin-bottom: 0.8rem;
     text-align: justify;
 }
+
+form p {
+    margin: 0;
+    text-align: left;
+}
+
+.contact-us {
+    
+}
+
+
 
 @media screen and (min-width: 576px) {
    .nav-menu-hamburger {
