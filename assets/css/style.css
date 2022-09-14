@@ -6,6 +6,10 @@
     border: none;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 :root {
     --blue-grey: #092039;
     --pale-blue: #B2D5F0;
@@ -13,12 +17,9 @@
     --dark-grey: #01212F;
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
 html {
     font-size: 62.5%;
+    scroll-padding-top:5.5rem;
 }
 
 body {
@@ -55,6 +56,7 @@ nav {
     right: 0;
     width: 100%;
     display: none;
+    transition: transform 500ms ease-in-out;
 }
 
 nav ul {
@@ -82,6 +84,7 @@ nav a:hover {
 
 .nav-menu-hamburger {
     position: absolute;
+    cursor: pointer;
     top: 0;
     right: 0;
     margin-right: 2rem;
@@ -91,6 +94,24 @@ nav a:hover {
     align-items: center;
     color: #fff;
     font-size: 120%;
+}
+
+#hamburger-close {
+    cursor: pointer;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 0.2rem;
+    color: #fff;
+    font-size: 120%;
+    display: none;
+}
+
+.nav-menu:checked ~ label #hamburger {
+    display: none;
+}
+
+.nav-menu:checked ~ label #hamburger-close {
+    display: flex;
 }
 
 #hero-outer {
@@ -185,7 +206,11 @@ form p {
 }
 
 @media screen and (min-width: 576px) {
-   .nav-menu-hamburger {
+    html {
+        scroll-padding-top:6.8rem;
+    }
+    
+    .nav-menu-hamburger {
         display: none;
    } 
 
@@ -197,7 +222,7 @@ form p {
    #logo {
         grid-column: 1 / 1;
         text-align: left;
-        margin-left: 2.2rem;
+        margin-left: 2.5rem;
         font-size: 220%;
    }
 
@@ -209,18 +234,19 @@ form p {
         grid-column: 3;
         display: flex;
         justify-content: flex-end;
-        padding: 1.3rem;       
+        padding: 1.3rem;    
+        transition: none;   
    }
 
-   nav a {
+   /* nav a {
         opacity: 1;
-   }
+   } */
 
    nav ul {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-top: 0.3rem;
+        margin-top: 0.4rem;
     }
 
     #hero-image {
