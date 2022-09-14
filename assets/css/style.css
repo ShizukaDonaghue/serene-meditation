@@ -12,7 +12,7 @@
 
 :root {
     --blue-grey: #092039;
-    --pale-blue: #B2D5F0;
+    --pale-blue: #7BC5E4;
     --pale-pink: #F3E4E4;
     --dark-grey: #01212F;
 }
@@ -49,7 +49,7 @@ header a {
 }
 
 nav {
-    background-color: rgba(9,32,57, 0.8);
+    background-color: rgba(5, 29, 54, 0.7);
     position: absolute;
     text-align: right;
     top: 100%;
@@ -126,17 +126,16 @@ nav a:hover {
 
 #hero-quote {
     font-family: "Alex Brush", sans-serif;
-    font-size: 95%;
     position:absolute;
-    bottom: 3%;
+    bottom: 3.7%;
     color: #fff;
     width: 100%;
     text-align: center;
 }
 
 #hero-quote q {
-    font-size: 130%;
-    font-weight: 400;
+    font-size: 150%;
+    font-weight: 500;
     letter-spacing: 0.1rem;
 }
 
@@ -156,6 +155,14 @@ h4 {
 section {
     margin: 0 2rem 2rem 2rem;
 }
+
+#techniques h4 {
+    margin-top: 0.5rem;
+}
+
+/* #techniques p {
+    margin-bottom: 1rem;
+} */
 
 section ol li {
     margin-top: -0.5rem;
@@ -205,7 +212,37 @@ form p {
     width:15rem;
 }
 
-@media screen and (min-width: 576px) {
+#mindfulness-meditation-outer {
+    position: relative;
+}
+
+#mindfulness-meditation-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 1rem;
+    background: url("../images/mindfulness-meditation-image.jpg") center center / cover no-repeat;
+}
+
+#mindfulness-meditation-quote {
+    font-family: "Alex Brush", sans-serif;
+    position:absolute;
+    bottom: 3.7%;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#mindfulness-meditation-quote q {
+    font-size: 150%;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+#mindfulness-meditation-quote footer {
+    font-size: 80%;
+}
+
+@media screen and (min-width: 992px) {
     html {
         scroll-padding-top:6.8rem;
     }
@@ -249,7 +286,7 @@ form p {
         margin-top: 0.4rem;
     }
 
-    #hero-image {
+    #hero-image, #mindfulness-meditation {
         height: 600px;
     }
 
