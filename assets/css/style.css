@@ -286,22 +286,22 @@ form p {
         margin-top: 0.4rem;
     }
 
-    #hero-image, #mindfulness-meditation {
+    #hero-image, #mindfulness-meditation-image {
         height: 600px;
     }
 
-    #hero-quote {
+    #hero-quote, #mindfulness-meditation-quote {
         position:absolute;
         bottom: 3%;
     }
 
-    #hero-quote q {
+    #hero-quote q, #mindfulness-meditation-quote q {
         font-size: 200%;
         font-weight: 600;
         letter-spacing: 0.05rem;
     }
     
-    #hero-quote footer {
+    #hero-quote footer, #mindfulness-meditation-quote footer {
         font-size: 120%;
     }
 }
