@@ -7,20 +7,15 @@ The users of this website will become familiar with what meditation is, benefits
 ## Live Site
 [Serene Meditation](https://shizukadonaghue.github.io/serene-meditation/)
 
----
-
 ## Repository
 https://github.com/ShizukaDonaghue/serene-meditation
 
----
 
 ## Table of Contents
 
----
 
 ## Objective
 
----
 
 ## UX: User Experience
 ### User Stories
@@ -31,29 +26,23 @@ https://github.com/ShizukaDonaghue/serene-meditation
 ### Typography
 ### Imagery
 
----
 
 ## Features
 ### Existing Features
 ### Future Features
 
----
 
 ## Technologies Used
 
----
 
 ## Testing
 
----
 
 ## Deployment
 
----
 
 ## Credits
 
----
 
 ## Acknowledgements
 
