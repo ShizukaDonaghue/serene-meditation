@@ -125,19 +125,19 @@ nav a:hover {
 #hero-quote {
     font-family: "Alex Brush", sans-serif;
     position:absolute;
-    bottom: 3.7%;
+    bottom: 5%;
     color: #fff;
     width: 100%;
     text-align: center;
+    font-size: 110%;
 }
 
-#hero-quote q {
-    font-size: 150%;
+q {
     font-weight: 500;
     letter-spacing: 0.1rem;
 }
 
-#hero-quote footer {
+.quote-footer {
     font-size: 80%;
 }
 
@@ -220,20 +220,11 @@ form p {
 #mindfulness-meditation-quote {
     font-family: "Alex Brush", sans-serif;
     position:absolute;
-    bottom: 3.7%;
+    padding-left: 0.5rem;
+    top: 35%;
     color: #fff;
-    width: 100%;
     text-align: center;
-}
-
-#mindfulness-meditation-quote q {
-    font-size: 150%;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
-}
-
-#mindfulness-meditation-quote footer {
-    font-size: 80%;
+    font-size: 120%;
 }
 
 #kindness-meditation-outer {
@@ -250,21 +241,13 @@ form p {
 #kindness-meditation-quote {
     font-family: "Alex Brush", sans-serif;
     position: absolute;
-    bottom: 3.7%;
+    top: 13%;
     color: #fff;
     width: 100%;
     text-align: center;
+    font-size: 120%;
 }
 
-#kindness-meditation-quote q {
-    font-size: 150%;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
-}
-
-#kindness-meditation-quote footer {
-    font-size: 80%;
-}
 
 @media screen and (min-width: 992px) {
     html {
