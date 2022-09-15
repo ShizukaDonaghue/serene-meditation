@@ -11,7 +11,7 @@
 }
 
 :root {
-    --blue-grey: #092039;
+    --dark-blue: #092039;
     --pale-blue: #7BC5E4;
     --pale-pink: #F3E4E4;
     --dark-grey: #01212F;
@@ -32,7 +32,7 @@ body {
 }
 
 header {
-    background: var(--blue-grey);
+    background: var(--dark-blue);
     text-align: center;
     position: fixed;
     z-index: 5;
@@ -68,6 +68,7 @@ nav li {
     margin-bottom: 0.3em;
     margin-right: 2rem;
     letter-spacing: 0.1rem; 
+    font-size: 110%;
 }
 
 nav a:hover {
@@ -97,13 +98,9 @@ nav a:hover {
 }
 
 #hamburger-close {
-    cursor: pointer;
-    height: 100%;
-    align-items: center;
-    margin-bottom: 0.2rem;
-    color: #fff;
-    font-size: 120%;
     display: none;
+    font-size: 120%;
+    margin-bottom: 0.2rem;
 }
 
 .nav-menu:checked ~ label #hamburger {
@@ -116,6 +113,7 @@ nav a:hover {
 
 #hero-outer {
     position: relative;
+    margin: 0 2rem 2rem 2rem;
 }
 
 #hero-image {
@@ -159,10 +157,6 @@ section {
 #techniques h4 {
     margin-top: 0.5rem;
 }
-
-/* #techniques p {
-    margin-bottom: 1rem;
-} */
 
 section ol li {
     margin-top: -0.5rem;
@@ -217,9 +211,9 @@ form p {
 }
 
 #mindfulness-meditation-image {
-    height: 300px;
+    height: 250px;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     background: url("../images/mindfulness-meditation-image.jpg") center center / cover no-repeat;
 }
 
@@ -239,6 +233,36 @@ form p {
 }
 
 #mindfulness-meditation-quote footer {
+    font-size: 80%;
+}
+
+#kindness-meditation-outer {
+    position: relative;
+}
+
+#kindness-meditation-image {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background: url("../images/kindness-meditation-image.jpg") center center / cover no-repeat;
+}
+
+#kindness-meditation-quote {
+    font-family: "Alex Brush", sans-serif;
+    position: absolute;
+    bottom: 3.7%;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#kindness-meditation-quote q {
+    font-size: 150%;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+#kindness-meditation-quote footer {
     font-size: 80%;
 }
 
@@ -274,10 +298,6 @@ form p {
         padding: 1.3rem;    
         transition: none;   
    }
-
-   /* nav a {
-        opacity: 1;
-   } */
 
    nav ul {
         display: flex;
