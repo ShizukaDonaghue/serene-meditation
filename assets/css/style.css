@@ -20,7 +20,7 @@
 
 html {
     font-size: 62.5%;
-    scroll-padding-top:5.2rem;
+    scroll-padding-top:5.5rem;
 }
 
 body {
@@ -130,7 +130,7 @@ nav a:hover {
     color: #fff;
     width: 100%;
     text-align: center;
-    font-size: 130%;
+    font-size: 125%;
 }
 
 q {
@@ -226,7 +226,7 @@ form p {
     top: 35%;
     color: #fff;
     text-align: center;
-    font-size: 120%;
+    font-size: 130%;
 }
 
 #kindness-meditation-outer {
@@ -247,7 +247,7 @@ form p {
     color: #fff;
     width: 100%;
     text-align: center;
-    font-size: 120%;
+    font-size: 130%;
 }
 
 #transcendental-meditation-outer {
@@ -268,7 +268,7 @@ form p {
     color: #fff;
     width: 100%;
     text-align: center;
-    font-size: 120%;
+    font-size: 130%;
 }
 
 .social-media {
