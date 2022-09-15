@@ -14,6 +14,7 @@
     --dark-blue: #092039;
     --pale-blue: #7BC5E4;
     --pale-pink: #F3E4E4;
+    --dark-pink: #D08A8A;
     --dark-grey: #01212F;
 }
 
@@ -268,6 +269,21 @@ form p {
     width: 100%;
     text-align: center;
     font-size: 120%;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 130%;
+    margin: 2%;
+    padding: 0.5rem;
+    color: var(--dark-pink)
 }
 
 @media screen and (min-width: 992px) {
