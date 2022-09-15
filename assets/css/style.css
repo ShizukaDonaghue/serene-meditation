@@ -19,7 +19,7 @@
 
 html {
     font-size: 62.5%;
-    scroll-padding-top:5rem;
+    scroll-padding-top:5.2rem;
 }
 
 body {
@@ -45,6 +45,7 @@ header a {
 
 #logo {
     letter-spacing: 0.1rem;
+    margin-top: 0.5rem;
 }
 
 nav {
@@ -128,7 +129,7 @@ nav a:hover {
     color: #fff;
     width: 100%;
     text-align: center;
-    font-size: 110%;
+    font-size: 130%;
 }
 
 q {
