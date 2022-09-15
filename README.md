@@ -45,6 +45,8 @@ Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main
 #### Unresolved
 Scroll-padding-top property is applied so that when the link to each section is selected, the desired section moves to the top of the screen, however, in some mobile devies, the padding appears slightly larger although the padding is correctly applied in the developer tools and the same bug cannot be seen in the developer tools. 
 
+Navigation bar sits on top of the hiro image - to be reviewed.
+
 ## Deployment
 
 
