@@ -23,7 +23,7 @@ https://github.com/ShizukaDonaghue/serene-meditation
 ### Wireframes
 ### Site Structure
 ### Colour Scheme
-The colour scheme for the site takes inspiration from the hero image of Mt. Fuji in beautiful pink sky. The colours chosed are calming and relaxing to enhance user experience. 
+The colour scheme for the site takes inspiration from the hero image of Mt. Fuji in beautiful pink sky. The colours chosen are calming and relaxing to enhance user experience. 
 
 ### Typography
 Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri is chosen as it has a calming flow which suits the image of the site. For the inspirational quotes, Alex Brush is chosen, which is a beautiful hand writing style to suit the images.  
@@ -41,6 +41,9 @@ Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main
 
 ## Testing
 
+### Bugs 
+#### Unresolved
+Scroll-padding-top property is applied so that when the link to each section is selected, the desired section moves to the top of the screen, however, in some mobile devies, the padding appears slightly larger although the padding is correctly applied in the developer tools and the same bug cannot be seen in the developer tools. 
 
 ## Deployment
 
