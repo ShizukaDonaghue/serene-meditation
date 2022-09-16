@@ -4,7 +4,7 @@ Welcome to Serene meditation. This is a website that introduces meditation to pe
 
 The users of this website will become familiar with what meditation is, benefits of meditation, meditation techniques and tips and tricks to start their meditation journey.
 
-## Live Site
+## Live Website
 [Serene Meditation](https://shizukadonaghue.github.io/serene-meditation/)
 
 ## Repository
@@ -21,12 +21,12 @@ https://github.com/ShizukaDonaghue/serene-meditation
 ### User Stories
 ### Initial Concept
 ### Wireframes
-### Site Structure
+### Website Structure
 ### Colour Scheme
-The colour scheme for the site takes inspiration from the hero image of Mt. Fuji in beautiful pink sky. The colours chosen are calming and relaxing to enhance user experience. 
+The colour scheme for the website takes inspiration from the hero image of Mt. Fuji in beautiful pink sky. The colours chosen are calming and relaxing to enhance user experience. 
 
 ### Typography
-Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri is chosen as it has a calming flow which suits the image of the site. For the inspirational quotes, Alex Brush is chosen, which is a beautiful hand writing style to suit the images.  
+Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri is chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush is chosen, which is a beautiful handwriting style to suit the images.
 
 ### Imagery
 
@@ -34,9 +34,14 @@ Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main
 ## Features
 ### Existing Features
 ### Future Features
-
+* The navigation bar currently does not have a drop down menu for "Techniques" section. A drop down menu will enable users to select a specific technique from the navigation bar. XXXXX EXPLAIN WHY THIS WAS NOT IMPLEMENTED  
 
 ## Technologies Used
+* The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/) 
+* The colour scheme ideas and actual colour palette was generated with [Coolors.co](https://coolors.co/)
+* All images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website will load quickly
+* The website uses icons from [Font Awesome](https://fontawesome.com/)
+* The website uses [cdnjs](https://cdnjs.com/) for Font Awesome icons so that the website will load quickly
 
 
 ## Testing
