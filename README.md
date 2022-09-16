@@ -26,7 +26,7 @@ https://github.com/ShizukaDonaghue/serene-meditation
 The colour scheme for the website takes inspiration from the hero image of Mt. Fuji in beautiful pink sky. The colours chosen are calming and relaxing to enhance user experience. 
 
 ### Typography
-Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri is chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush is chosen, which is a beautiful handwriting style to suit the images.
+Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
 
 ### Imagery
 
@@ -41,16 +41,16 @@ Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main
 * The colour scheme ideas and actual colour palette was generated with [Coolors.co](https://coolors.co/)
 * All images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website will load quickly
 * The website uses icons from [Font Awesome](https://fontawesome.com/)
-* The website uses [cdnjs](https://cdnjs.com/) for Font Awesome icons so that the website will load quickly
+* The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website will load quickly
 
 
 ## Testing
 
 ### Bugs 
 #### Unresolved
-Scroll-padding-top property is applied so that when the link to each section is selected, the desired section moves to the top of the screen, however, in some mobile devies, the padding appears slightly larger although the padding is correctly applied in the developer tools and the same bug cannot be seen in the developer tools. 
+Scroll-padding-top property is applied so that when the link to each section is selected, the desired section moves to the top of the screen, however, in some mobile devices, the padding appears slightly larger although the padding is correctly applied in the developer tools and the same bug cannot be seen in the developer tools. 
 
-Navigation bar sits on top of the hiro image - to be reviewed.
+Navigation bar sits on top of the hero image - to be reviewed.
 
 ## Deployment
 
