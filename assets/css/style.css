@@ -1,5 +1,7 @@
+/* Google Font import */
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=El+Messiri:wght@500&display=swap');
 
+/* styling for main structure  */
 * {
     margin: 0;
     padding: 0;
