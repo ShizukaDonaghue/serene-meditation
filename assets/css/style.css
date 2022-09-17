@@ -121,27 +121,25 @@ nav a:hover {
 
 #hero-image {
     height: 300px;
-    width: 100%;
-    background: url("../images/hero-image.jpg") center center / cover no-repeat;
 }
 
 #hero-quote {
-    font-family: "Alex Brush", sans-serif;
     position:absolute;
     bottom: 5%;
     color: #fff;
     width: 100%;
     text-align: center;
-    font-size: 125%;
+    font-size: 160%;
 }
 
 q {
+    font-family: "Alex Brush", sans-serif;
     font-weight: 500;
     letter-spacing: 0.1rem;
 }
 
 .quote-footer {
-    font-size: 70%;
+    font-size: 50%;
     margin-top: 0.5rem;
 }
 
@@ -222,13 +220,12 @@ form p {
 }
 
 #mindfulness-meditation-quote {
-    font-family: "Alex Brush", sans-serif;
     position:absolute;
     padding-left: 1rem;
     top: 35%;
     color: #fff;
     text-align: center;
-    font-size: 130%;
+    font-size: 160%;
 }
 
 #kindness-meditation-outer {
@@ -243,13 +240,12 @@ form p {
 }
 
 #kindness-meditation-quote {
-    font-family: "Alex Brush", sans-serif;
     position: absolute;
     top: 13%;
     color: #fff;
     width: 100%;
     text-align: center;
-    font-size: 130%;
+    font-size: 160%;
 }
 
 #transcendental-meditation-outer {
@@ -264,13 +260,12 @@ form p {
 }
 
 #transcendental-meditation-quote {
-    font-family: "Alex Brush", sans-serif;
     position: absolute;
     bottom: 5%;
     color: #fff;
     width: 100%;
     text-align: center;
-    font-size: 130%;
+    font-size: 160%;
 }
 
 .social-media {
