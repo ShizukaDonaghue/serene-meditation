@@ -12,6 +12,7 @@
     box-sizing: border-box;
 }
 
+/* root variables for easier colour changes */
 :root {
     --dark-blue: #092039;
     --pale-blue: #7BC5E4;
@@ -20,11 +21,13 @@
     --dark-grey: #01212F;
 }
 
+/* double reset for font size for easier rem unit calculation and scroll-padding property to account for fixed navigation bar */
 html {
     font-size: 62.5%;
     scroll-padding-top:5.5rem;
 }
 
+/* styling for main body element */
 body {
     font-size: 1.6rem;
     font-family: "El Messiri", sans-serif;
@@ -33,6 +36,7 @@ body {
     color: var(--dark-grey);
 }
 
+/* styling for header with fixed navigation bar */
 header {
     background: var(--dark-blue);
     text-align: center;
@@ -48,7 +52,6 @@ header a {
 
 #logo {
     letter-spacing: 0.1rem;
-    margin-top: 0.5rem;
 }
 
 nav {
@@ -74,6 +77,7 @@ nav li {
     font-size: 110%;
 }
 
+/* styling for responsive navigation bar */
 nav a:hover {
     color: var(--pale-blue);
 }
@@ -114,6 +118,7 @@ nav a:hover {
     display: flex;
 }
 
+/* styling for hero image and quote */
 #hero-outer {
     position: relative;
     margin: 0 2rem 2rem 2rem;
@@ -124,7 +129,7 @@ nav a:hover {
 }
 
 #hero-quote {
-    position:absolute;
+    position: absolute;
     bottom: 5%;
     color: #fff;
     width: 100%;
@@ -132,6 +137,7 @@ nav a:hover {
     font-size: 160%;
 }
 
+/* styling for all inline quotation elements */
 q {
     font-family: "Alex Brush", sans-serif;
     font-weight: 500;
@@ -143,6 +149,11 @@ q {
     margin-top: 0.5rem;
 }
 
+/* styling for section elements */
+section {
+    margin: 0 2rem 2rem 2rem;
+}
+
 h3 {
     text-transform: uppercase;
 }
@@ -152,18 +163,8 @@ h4 {
     margin-bottom: 0.2rem;
 }
 
-section {
-    margin: 0 2rem 2rem 2rem;
-}
-
 #techniques h4 {
     margin-top: 0.5rem;
-}
-
-section ol li {
-    margin-top: -0.5rem;
-    margin-bottom: -0.5rem;
-    margin-left: 2.8rem;
 }
 
 p {
@@ -173,6 +174,76 @@ p {
     text-align: justify;
 }
 
+section ol li {
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
+    margin-left: 2.8rem;
+}
+
+/* styling for mindfulness meditation image and quote */
+#mindfulness-meditation-outer {
+    position: relative;
+}
+
+#mindfulness-meditation-image {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background: url("../images/mindfulness-meditation-image.jpg") center center / cover no-repeat;
+}
+
+#mindfulness-meditation-quote {
+    position: absolute;
+    padding-left: 1rem;
+    top: 35%;
+    color: #fff;
+    text-align: center;
+    font-size: 160%;
+}
+
+/* styling for loving kindness meditation image and quote */
+#kindness-meditation-outer {
+    position: relative;
+}
+
+#kindness-meditation-image {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background: url("../images/kindness-meditation-image.jpg") center center / cover no-repeat;
+}
+
+#kindness-meditation-quote {
+    position: absolute;
+    top: 13%;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 160%;
+}
+
+/* styling for transcendental meditation image and quote */
+#transcendental-meditation-outer {
+    position: relative;
+}
+
+#transcendental-meditation-image {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background: url("../images/transcendental-meditation.jpg") center center / cover no-repeat;
+}
+
+#transcendental-meditation-quote {
+    position: absolute;
+    bottom: 5%;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 160%;
+}
+
+/* styling for contact us section */
 .contact {
     display: grid;
 }
@@ -208,66 +279,7 @@ form p {
     width:15rem;
 }
 
-#mindfulness-meditation-outer {
-    position: relative;
-}
-
-#mindfulness-meditation-image {
-    height: 250px;
-    width: 100%;
-    margin-bottom: 1.5rem;
-    background: url("../images/mindfulness-meditation-image.jpg") center center / cover no-repeat;
-}
-
-#mindfulness-meditation-quote {
-    position:absolute;
-    padding-left: 1rem;
-    top: 35%;
-    color: #fff;
-    text-align: center;
-    font-size: 160%;
-}
-
-#kindness-meditation-outer {
-    position: relative;
-}
-
-#kindness-meditation-image {
-    height: 250px;
-    width: 100%;
-    margin-bottom: 1.5rem;
-    background: url("../images/kindness-meditation-image.jpg") center center / cover no-repeat;
-}
-
-#kindness-meditation-quote {
-    position: absolute;
-    top: 13%;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    font-size: 160%;
-}
-
-#transcendental-meditation-outer {
-    position: relative;
-}
-
-#transcendental-meditation-image {
-    height: 250px;
-    width: 100%;
-    margin-bottom: 1.5rem;
-    background: url("../images/transcendental-meditation.jpg") center center / cover no-repeat;
-}
-
-#transcendental-meditation-quote {
-    position: absolute;
-    bottom: 5%;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    font-size: 160%;
-}
-
+/* styling for footer with social media links */
 .social-media {
     text-align: center;
 }
@@ -300,6 +312,7 @@ form p {
    #logo {
         grid-column: 1 / 1;
         text-align: left;
+        margin-top: 0.5rem;
         margin-left: 2.5rem;
         font-size: 220%;
    }
@@ -328,7 +341,7 @@ form p {
     }
 
     #hero-quote, #mindfulness-meditation-quote, #kindness-meditation-quote, #transcendental-meditation-quote {
-        position:absolute;
+        position: absolute;
         bottom: 3%;
     }
 
