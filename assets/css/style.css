@@ -313,7 +313,7 @@ form p {
     }
 }
 
-/* media query for screen size < 500px to adjust the image sizes and positining of quotes */
+/* media query for screen size < 500px to adjust image sizes and positining of quotes */
 @media screen and (min-width: 500px) {
     q {
         font-size: 165%;
@@ -336,8 +336,8 @@ form p {
     }
 }
 
-/* media query for screen size < 650px to adjust image sizes and positining of quotes */
-@media screen and (min-width: 650px) {
+/* media query for screen size < 600px to adjust image sizes and positining of quotes */
+@media screen and (min-width: 600px) {
     q {
         font-size: 170%;
     }
