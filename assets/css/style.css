@@ -52,6 +52,7 @@ header a {
 
 #logo {
     letter-spacing: 0.1rem;
+    margin-top: 0.1rem;
 }
 
 nav {
@@ -284,16 +285,15 @@ form p {
     color: var(--dark-pink)
 }
 
-/* media query for screen sizes < 375px to prevent logo from overlapping responsive navigation bar
+/* media query for screen sizes < 360px to prevent logo from overlapping with responsive navigation bar
     and prevent inspirational quotes from overflowing to another row */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
     html {
         scroll-padding-top: 4rem; 
     }
 
     #logo {
         font-size: 2.5rem;
-        margin-top: 0.1rem;
     }
 
     nav li {
@@ -311,6 +311,7 @@ form p {
     #mindfulness-meditation-image, #kindness-meditation-image, #transcendental-meditation-image {
         height: 200px;
     }
+}
 
 
 
