@@ -321,7 +321,6 @@ form p {
 /* media query for screen size < 476px to adjust image sizes, positining of quotes and overall margin*/
 @media screen and (min-width: 476px) {
     #hero-outer {
-        position: relative;
         margin: 0 2.5rem 2rem 2.5rem;
     }
     
@@ -358,7 +357,6 @@ form p {
 /* media query for screen size < 576px to adjust image sizes, positining of quotes and overall margin */
 @media screen and (min-width: 576px) {
     #hero-outer {
-        position: relative;
         margin: 0 3rem 2rem 3rem;
     }
     
@@ -391,7 +389,6 @@ form p {
 /* media query for screen size < 676px to adjust image sizes, positining of quotes and overall margin */
 @media screen and (min-width: 676px) {
     #hero-outer {
-        position: relative;
         margin: 0 3.5rem 2.5rem 3.5rem;
     }
     
@@ -418,6 +415,28 @@ form p {
     #mindfulness-meditation-quote {
         top:40%;
         width: 60%;
+    }
+}
+
+/* media query for screen size < 726px to adjust overall margin */
+@media screen and (min-width: 726px) {
+    #hero-outer {
+        margin: 0 4rem 3rem 4rem;
+    }
+    
+    section {
+        margin: 0 4rem 3rem 4rem;
+    }
+}
+
+/* media query for screen size < 876px to adjust overall margin */
+@media screen and (min-width: 876px) {
+    #hero-outer {
+        margin: 0 5rem 3.5rem 5rem;
+    }
+    
+    section {
+        margin: 0 5rem 3.5rem 5rem;
     }
 }
 
