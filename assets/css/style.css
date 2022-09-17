@@ -225,14 +225,12 @@ section ol li {
 
 #transcendental-meditation-image {
     height: 250px;
-    width: 100%;
     margin-bottom: 1.5rem;
-    background: url("../images/transcendental-meditation.jpg") center center / cover no-repeat;
 }
 
 #transcendental-meditation-quote {
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     color: #fff;
     width: 100%;
     text-align: center;
