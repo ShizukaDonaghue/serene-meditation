@@ -130,7 +130,7 @@ nav a:hover {
 
 #hero-quote {
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     color: #fff;
     width: 100%;
     text-align: center;
@@ -187,16 +187,15 @@ section ol li {
 
 #mindfulness-meditation-image {
     height: 250px;
-    width: 100%;
     margin-bottom: 1.5rem;
-    background: url("../images/mindfulness-meditation-image.jpg") center center / cover no-repeat;
 }
 
 #mindfulness-meditation-quote {
     position: absolute;
     padding-left: 1rem;
-    top: 35%;
+    bottom: 3%;
     color: #fff;
+    width: 100%;
     text-align: center;
     font-size: 160%;
 }
