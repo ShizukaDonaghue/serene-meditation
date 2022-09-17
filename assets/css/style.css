@@ -131,22 +131,23 @@ nav a:hover {
 #hero-quote {
     position: absolute;
     bottom: 3%;
-    color: #fff;
     width: 100%;
     text-align: center;
-    font-size: 160%;
-}
+ }
 
 /* styling for all inline quotation elements */
 q {
+    font-size: 160%;
     font-family: "Alex Brush", sans-serif;
     font-weight: 500;
     letter-spacing: 0.1rem;
+    color: #fff;
 }
 
 .quote-footer {
-    font-size: 50%;
+    font-size: 80%;
     margin-top: 0.5rem;
+    color: #fff;
 }
 
 /* styling for section elements */
@@ -193,10 +194,8 @@ section ol li {
 #mindfulness-meditation-quote {
     position: absolute;  
     bottom: 3%;
-    color: #fff;
     width: 100%;
     text-align: center;
-    font-size: 160%;
 }
 
 /* styling for loving kindness meditation image and quote */
@@ -212,10 +211,8 @@ section ol li {
 #kindness-meditation-quote {
     position: absolute;
     top: 8%;
-    color: #fff;
     width: 100%;
     text-align: center;
-    font-size: 160%;
 }
 
 /* styling for transcendental meditation image and quote */
@@ -231,10 +228,8 @@ section ol li {
 #transcendental-meditation-quote {
     position: absolute;
     bottom: 3%;
-    color: #fff;
     width: 100%;
     text-align: center;
-    font-size: 160%;
 }
 
 /* styling for contact us section */
@@ -288,6 +283,36 @@ form p {
     padding: 0.5rem;
     color: var(--dark-pink)
 }
+
+/* media query for screen sizes < 375px to prevent logo from overlapping responsive navigation bar
+    and prevent inspirational quotes from overflowing to another row */
+@media screen and (max-width: 350px) {
+    html {
+        scroll-padding-top: 4rem; 
+    }
+
+    #logo {
+        font-size: 2.5rem;
+        margin-top: 0.1rem;
+    }
+
+    nav li {
+        font-size: 100%;
+    }
+
+    q {
+        font-size: 140%;
+    }
+   
+    #hero-image {
+        height: 240px;
+    }
+
+    #mindfulness-meditation-image, #kindness-meditation-image, #transcendental-meditation-image {
+        height: 200px;
+    }
+
+
 
 @media screen and (min-width: 992px) {
     html {
