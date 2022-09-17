@@ -194,7 +194,7 @@ section ol li {
 
 #mindfulness-meditation-quote {
     position: absolute;  
-    bottom: 3%;
+    bottom: 15%;
     width: 100%;
     text-align: center;
 }
@@ -285,9 +285,9 @@ form p {
     color: var(--dark-pink)
 }
 
-/* media query for screen sizes < 360px to prevent logo from overlapping with responsive navigation bar
+/* media query for screen sizes < 376px to prevent logo from overlapping with responsive navigation bar
     and prevent inspirational quotes from overflowing to another row */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 376px) {
     html {
         scroll-padding-top: 4rem; 
     }
@@ -311,10 +311,24 @@ form p {
     #mindfulness-meditation-image, #kindness-meditation-image, #transcendental-meditation-image {
         height: 200px;
     }
+
+    #mindfulness-meditation-quote {
+        top:50%;
+        width: 100%;
+    }
 }
 
-/* media query for screen size < 500px to adjust image sizes and positining of quotes */
-@media screen and (min-width: 500px) {
+/* media query for screen size < 476px to adjust image sizes, positining of quotes and overall margin*/
+@media screen and (min-width: 476px) {
+    #hero-outer {
+        position: relative;
+        margin: 0 2.5rem 2rem 2.5rem;
+    }
+    
+    section {
+        margin: 0 2.5rem 2rem 2.5rem;
+    }
+    
     q {
         font-size: 165%;
     }
@@ -324,11 +338,16 @@ form p {
     }
 
     #hero-image {
-        height: 350px;
+        height: 330px;
     }
 
     #mindfulness-meditation-image, #kindness-meditation-image, #transcendental-meditation-image {
-        height: 300px;
+        height: 280px;
+    }
+    
+    #mindfulness-meditation-quote {
+        width: 80%;
+        top: 45%;
     }
 
     #kindness-meditation-quote {
@@ -336,8 +355,17 @@ form p {
     }
 }
 
-/* media query for screen size < 600px to adjust image sizes and positining of quotes */
-@media screen and (min-width: 600px) {
+/* media query for screen size < 576px to adjust image sizes, positining of quotes and overall margin */
+@media screen and (min-width: 576px) {
+    #hero-outer {
+        position: relative;
+        margin: 0 3rem 2rem 3rem;
+    }
+    
+    section {
+        margin: 0 3rem 2rem 3rem;
+    }
+
     q {
         font-size: 170%;
     }
@@ -355,7 +383,40 @@ form p {
     }
 
     #mindfulness-meditation-quote {
-        top: 40%;
+        top:45%;
+        width: 70%;
+    }
+}
+
+/* media query for screen size < 676px to adjust image sizes, positining of quotes and overall margin */
+@media screen and (min-width: 676px) {
+    #hero-outer {
+        position: relative;
+        margin: 0 3.5rem 2.5rem 3.5rem;
+    }
+    
+    section {
+        margin: 0 3.5rem 2.5rem 3.5rem;
+    }
+
+    q {
+        font-size: 180%;
+    }
+   
+    .quote-footer {
+        font-size: 95%;
+    }
+
+    #hero-image {
+        height: 450px;
+    }
+
+    #mindfulness-meditation-image, #kindness-meditation-image, #transcendental-meditation-image {
+        height: 400px;
+    }
+
+    #mindfulness-meditation-quote {
+        top:40%;
         width: 60%;
     }
 }
