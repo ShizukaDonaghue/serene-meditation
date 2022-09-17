@@ -321,11 +321,11 @@ form p {
 /* media query for screen size < 476px to adjust image sizes, positining of quotes and overall margin*/
 @media screen and (min-width: 476px) {
     #hero-outer {
-        margin: 0 2.5rem 2rem 2.5rem;
+        margin: 0 2.5rem 2.5rem 2.5rem;
     }
     
     section {
-        margin: 0 2.5rem 2rem 2.5rem;
+        margin: 0 2.5rem 2.5rem 2.5rem;
     }
     
     q {
@@ -357,11 +357,11 @@ form p {
 /* media query for screen size < 576px to adjust image sizes, positining of quotes and overall margin */
 @media screen and (min-width: 576px) {
     #hero-outer {
-        margin: 0 3rem 2rem 3rem;
+        margin: 0 3rem 3rem 3rem;
     }
     
     section {
-        margin: 0 3rem 2rem 3rem;
+        margin: 0 3rem 3rem 3rem;
     }
 
     q {
@@ -389,11 +389,11 @@ form p {
 /* media query for screen size < 676px to adjust image sizes, positining of quotes and overall margin */
 @media screen and (min-width: 676px) {
     #hero-outer {
-        margin: 0 3.5rem 2.5rem 3.5rem;
+        margin: 0 4rem 3rem 4rem;
     }
     
     section {
-        margin: 0 3.5rem 2.5rem 3.5rem;
+        margin: 0 4rem 3rem 4rem;
     }
 
     q {
@@ -418,14 +418,14 @@ form p {
     }
 }
 
-/* media query for screen size < 726px to adjust overall margin */
-@media screen and (min-width: 726px) {
+/* media query for screen size < 751px to adjust overall margin */
+@media screen and (min-width: 751px) {
     #hero-outer {
-        margin: 0 4rem 3rem 4rem;
+        margin: 0 4.5rem 3rem 4.5rem;
     }
     
     section {
-        margin: 0 4rem 3rem 4rem;
+        margin: 0 4.5rem 3rem 4.5rem;
     }
 }
 
@@ -440,9 +440,10 @@ form p {
     }
 }
 
-@media screen and (min-width: 992px) {
+/* media query for screen size < 905px to remove hambuerger menu, adjust image sizes and quote sizes */
+@media screen and (min-width: 905px) {
     html {
-        scroll-padding-top:6.8rem;
+        scroll-padding-top: 7rem;
     }
     
     .nav-menu-hamburger {
@@ -457,8 +458,7 @@ form p {
    #logo {
         grid-column: 1 / 1;
         text-align: left;
-        margin-top: 0.5rem;
-        margin-left: 2.5rem;
+        margin-left: 5rem;
         font-size: 220%;
    }
 
@@ -470,7 +470,6 @@ form p {
         grid-column: 3;
         display: flex;
         justify-content: flex-end;
-        padding: 1.3rem;    
         transition: none;   
    }
 
@@ -478,26 +477,75 @@ form p {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-top: 0.4rem;
+        font-size: 95%;
+        margin-top: 0.5rem;
+        margin-right: 3rem;
+    }
+    
+    #hero-image {
+        height: 500px;
     }
 
-    #hero-image, #mindfulness-meditation-image, #kindness-meditation-image, #transcendental-meditation-image {
-        height: 500px;
+    #mindfulness-meditation-image, #kindness-meditation-image, #transcendental-meditation-image {
+        height: 436px;
     }
 
     #hero-quote, #mindfulness-meditation-quote, #kindness-meditation-quote, #transcendental-meditation-quote {
         position: absolute;
         bottom: 3%;
     }
+}
 
-    q {
-        font-size: 200%;
-        font-weight: 600;
-        letter-spacing: 0.05rem;
+/* media query for screen size < 1005px to adjust overall margin */
+@media screen and (min-width: 1005px) {
+    body {
+        font-size: 1.7rem;
+    }
+
+    #logo {
+        margin-left: 6rem;
+    }
+
+    nav ul {
+        margin-right: 4rem;
+    }
+
+    #hero-outer {
+        margin: 0 6rem 3.5rem 6rem;
     }
     
-    .quote-footer {
-        font-size: 120%;
+    section {
+        margin: 0 6rem 3.5rem 6rem;
     }
 }
+
+/* media query for screen size < 1200px to adjust overall margin */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.8rem;
+    }
+    
+    #logo {
+        margin-left: 5.5rem;
+    }
+
+    nav ul {
+        margin-right: 4rem;
+    }
+
+    #hero-outer {
+        width: 1100px;
+        margin: 0 auto 3.5rem auto;
+    }
+    
+    section {
+        width: 1100px;
+        margin: 0 auto 3.5rem auto;
+    }
+
+    p {
+        margin-bottom: 2rem;
+    }
+}
+
 
