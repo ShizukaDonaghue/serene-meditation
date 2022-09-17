@@ -313,7 +313,52 @@ form p {
     }
 }
 
+/* media query for screen size < 500px to adjust the image sizes and positining of quotes */
+@media screen and (min-width: 500px) {
+    q {
+        font-size: 165%;
+    }
+   
+    .quote-footer {
+        font-size: 85%;
+    }
 
+    #hero-image {
+        height: 350px;
+    }
+
+    #mindfulness-meditation-image, #kindness-meditation-image, #transcendental-meditation-image {
+        height: 300px;
+    }
+
+    #kindness-meditation-quote {
+        top: 15%;
+    }
+}
+
+/* media query for screen size < 650px to adjust image sizes and positining of quotes */
+@media screen and (min-width: 650px) {
+    q {
+        font-size: 170%;
+    }
+   
+    .quote-footer {
+        font-size: 90%;
+    }
+
+    #hero-image {
+        height: 400px;
+    }
+
+    #mindfulness-meditation-image, #kindness-meditation-image, #transcendental-meditation-image {
+        height: 350px;
+    }
+
+    #mindfulness-meditation-quote {
+        top: 40%;
+        width: 60%;
+    }
+}
 
 @media screen and (min-width: 992px) {
     html {
