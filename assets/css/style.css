@@ -285,6 +285,8 @@ form p {
     color: var(--dark-pink)
 }
 
+
+
 /* media query for screen sizes < 376px to prevent logo from overlapping with responsive navigation bar
     and prevent inspirational quotes from overflowing to another row */
 @media screen and (max-width: 376px) {
