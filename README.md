@@ -52,11 +52,15 @@ Detailed Alt attribute is included for each image to describe the image. The int
 
 ### Bugs 
 #### Resolved
-Scroll-padding-top property is applied to this website so that when the link to each section is selected from the navigation bar, the desired section moves to the top of the screen below the fixed navigation bar (not hidden under the navigation bar), however, in Apple devices, the padding was applied larger than the rem unit set and the section above was visible. The issue was not seen in the developer tools during the design phase. 
+Scroll-padding-top property is applied to this website so that when the link to each section is selected from the navigation bar, the desired section moves to the top of the screen below the fixed navigation bar (not hidden under the navigation bar), however, in Safari for Apple Devices, the padding was applied larger than the rem unit set and the section above was visible. The issue was not seen in the developer tools during the design phase. 
 
 The issue was resolved by changing the scroll-padding-top property from rem to px.
 
+Image showing scroll-padding not applied correctly before the issue was resolved:
+
 <img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width="250"/>
+
+Image showing scroll-padding applied correctly after the fix:
 
 <img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width="250"/>
 
