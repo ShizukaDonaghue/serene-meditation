@@ -293,23 +293,26 @@ form p {
 
 #thank-you-quote {
     margin-top: 3rem;
+    margin-bottom: 5rem;
     text-align: center;
     width: 100%;
 }
 
 #thank-you-quote q {
     color: var(--dark-grey);
+    letter-spacing: 0.2rem;
     font-weight: 600;
-}
-
-#thank-you-quote p {
-    margin-top: 1rem;
-    text-align: center;
 }
 
 #thank-you-footer {
     font-size: 80%;
+    margin-top: 0.5rem;
     margin-bottom: 3rem;
+}
+
+#thank-you-quote p {
+    /* margin-top: 1rem; */
+    text-align: center;
 }
 
 /* media query for screen sizes < 376px to prevent logo from overlapping with responsive navigation bar
