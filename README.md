@@ -47,10 +47,13 @@ Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main
 ## Testing
 
 ### Bugs 
-#### Unresolved
-Scroll-padding-top property is applied so that when the link to each section is selected, the desired section moves to the top of the screen, however, in some mobile devices, the padding appears slightly larger although the padding is correctly applied in the developer tools and the same bug cannot be seen in the developer tools. 
+### Resolved
+Scroll-padding-top property is applied to this website so that when the link to each section is selected from the navigation bar, the desired section moves to the top of the screen below the fixed navigation bar (not hidden under the navigation bar), however, in Apple devices, the padding was applied larger than the rem unit set and the section above was visible. The issue was not seen in the developer tools during the design phase. 
 
-Navigation bar sits on top of the hero image - to be reviewed.
+The issue was resolved by changing the scroll-padding-top property from rem to px.
+
+
+#### Unresolved
 
 ## Deployment
 
