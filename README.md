@@ -58,11 +58,11 @@ The issue was resolved by changing the scroll-padding-top property from rem to p
 
 Image showing scroll-padding not applied correctly before the issue was resolved:
 
-<img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width="250"/>
+<img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width="300"/>
 
 Image showing scroll-padding applied correctly after the fix:
 
-<img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width="250"/>
+<img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width="300"/>
 
 #### Unresolved
 
