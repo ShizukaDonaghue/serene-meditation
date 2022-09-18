@@ -287,20 +287,29 @@ form p {
 
 /* styling for thank-you.html */
 #thank-you-outer {
-    position: relative;
     padding-top: 51px;
-}
-
-#thank-you-image {
-    height: vh;
+    margin: 0 2rem 2rem 2rem;
 }
 
 #thank-you-quote {
-    position: absolute;
-    top: 50%;
-    width: 100%;
+    margin-top: 3rem;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+#thank-you-quote q {
+    color: var(--dark-grey);
+    font-weight: 600;
+}
+
+#thank-you-quote p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#thank-you-footer {
+    font-size: 80%;
+    margin-bottom: 3rem;
 }
 
 /* media query for screen sizes < 376px to prevent logo from overlapping with responsive navigation bar
@@ -333,6 +342,14 @@ form p {
     #mindfulness-meditation-quote {
         top:50%;
         width: 100%;
+    }
+
+    #thank-you-outer {
+        padding-top: 39px
+    }
+
+    #thank-you-quote q {
+        font-size: 130%;
     }
 }
 
@@ -370,6 +387,10 @@ form p {
     #kindness-meditation-quote {
         top: 15%;
     }
+
+    #thank-you-outer {
+        margin: 0 2.5rem 2.5rem 2.5rem;
+    }
 }
 
 /* media query for screen size < 576px to adjust image sizes, positining of quotes and overall margin */
@@ -401,6 +422,10 @@ form p {
     #mindfulness-meditation-quote {
         top:45%;
         width: 70%;
+    }
+
+    #thank-you-outer {
+        margin: 0 3rem 3rem 3rem;
     }
 }
 
@@ -445,6 +470,11 @@ form p {
     section {
         margin: 0 4.5rem 3rem 4.5rem;
     }
+
+    #thank-you-outer {
+        margin: 0 4.5rem 3rem 4.5rem;
+    }
+    
 }
 
 /* media query for screen size < 876px to adjust overall margin */
@@ -454,6 +484,10 @@ form p {
     }
     
     section {
+        margin: 0 5rem 3.5rem 5rem;
+    }
+
+    #thank-you-outer {
         margin: 0 5rem 3.5rem 5rem;
     }
 }
