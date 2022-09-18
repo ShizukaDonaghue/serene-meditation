@@ -459,6 +459,10 @@ form p {
         top:40%;
         width: 60%;
     }
+
+    #thank-you-outer {
+        margin: 0 4rem 3rem 4rem;
+    }
 }
 
 /* media query for screen size < 751px to adjust overall margin */
@@ -474,7 +478,6 @@ form p {
     #thank-you-outer {
         margin: 0 4.5rem 3rem 4.5rem;
     }
-    
 }
 
 /* media query for screen size < 876px to adjust overall margin */
@@ -582,6 +585,10 @@ form p {
     .social-media i {
         font-size: 140%;
     }
+
+    #thank-you-outer {
+        margin: 0 6rem 3.5rem 6rem;
+    }
 }
 
 /* media query for screen size < 1200px to adjust overall margin */
@@ -623,6 +630,11 @@ form p {
 
     .social-media i {
         font-size: 150%;
+    }
+
+    #thank-you-outer {
+        width: 1100px;
+        margin: 0 auto 3.5rem auto;
     }
 }
 
