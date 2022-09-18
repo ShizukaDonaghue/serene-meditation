@@ -56,9 +56,9 @@ Scroll-padding-top property is applied to this website so that when the link to 
 
 The issue was resolved by changing the scroll-padding-top property from rem to px.
 
-<img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width="150"/>
+<img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width="250"/>
 
-<img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width="150"/>
+<img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width="250"/>
 
 #### Unresolved
 
