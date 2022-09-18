@@ -29,7 +29,11 @@ The colour scheme for the website takes inspiration from the hero image of Mt. F
 Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
 
 ### Imagery
+The images are carefully chosen to set the calm and peaceful tone for the website. They are beautiful images of sunrise to signify the start of a meditation journey. 
 
+Each of these images includes an inspiration quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their journey.
+
+Detailed Alt attribute is included for each image to describe the image. The intention is to improve assessibility so that the images will convey the same message for all users.
 
 ## Features
 ### Existing Features
@@ -47,7 +51,7 @@ Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main
 ## Testing
 
 ### Bugs 
-### Resolved
+#### Resolved
 Scroll-padding-top property is applied to this website so that when the link to each section is selected from the navigation bar, the desired section moves to the top of the screen below the fixed navigation bar (not hidden under the navigation bar), however, in Apple devices, the padding was applied larger than the rem unit set and the section above was visible. The issue was not seen in the developer tools during the design phase. 
 
 The issue was resolved by changing the scroll-padding-top property from rem to px.
