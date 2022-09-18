@@ -24,7 +24,7 @@
 /* double reset for font size for easier rem unit calculation and scroll-padding property to account for fixed navigation bar */
 html {
     font-size: 62.5%;
-    scroll-padding-top:51px;
+    scroll-padding-top:53px;
 }
 
 /* styling for main body element */
@@ -289,7 +289,7 @@ form p {
     and prevent inspirational quotes from overflowing to another row */
 @media screen and (max-width: 376px) {
     html {
-        scroll-padding-top: 40px; 
+        scroll-padding-top: 41px; 
     }
 
     #logo {
@@ -443,7 +443,7 @@ form p {
 /* media query for screen size < 905px to remove hambuerger menu, adjust image sizes and quote sizes */
 @media screen and (min-width: 905px) {
     html {
-        scroll-padding-top: 56px;
+        scroll-padding-top: 59px;
     }
     
     .nav-menu-hamburger {
