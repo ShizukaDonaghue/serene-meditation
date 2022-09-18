@@ -4,6 +4,8 @@ Welcome to Serene meditation. This is a website that introduces meditation to pe
 
 The users of this website will become familiar with what meditation is, benefits of meditation, meditation techniques and tips and tricks to start their meditation journey.
 
+<img src="docs/images/responsive-view.png" alt="Image showing how the website look on different screen sizes"/>
+
 ## Live Website
 [Serene Meditation](https://shizukadonaghue.github.io/serene-meditation/)
 
