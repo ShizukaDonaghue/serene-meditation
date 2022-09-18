@@ -285,7 +285,23 @@ form p {
     color: var(--dark-pink)
 }
 
+/* styling for thank-you.html */
+#thank-you-outer {
+    position: relative;
+    padding-top: 51px;
+}
 
+#thank-you-image {
+    height: vh;
+}
+
+#thank-you-quote {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
 
 /* media query for screen sizes < 376px to prevent logo from overlapping with responsive navigation bar
     and prevent inspirational quotes from overflowing to another row */
