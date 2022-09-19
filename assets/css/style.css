@@ -346,7 +346,7 @@ form p {
     }
 }
 
-/* media query for screen size < 476px to adjust margins, size and positining of quotes */
+/* media query for screen size < 476px to adjust margins, size and positioning of quotes */
 @media screen and (min-width: 476px) {
     #hero-outer {
         margin: 0 2.5rem 2rem 2.5rem;
@@ -378,7 +378,7 @@ form p {
     }
 }
 
-/* media query for screen size < 576px to to adjust margins, size and positining of quotes */
+/* media query for screen size < 576px to adjust margins, size and positioning of quotes */
 @media screen and (min-width: 576px) {
     #hero-outer {
         margin: 0 3rem 2.5rem 3rem;
@@ -415,7 +415,7 @@ form p {
     }
 }
 
-/* media query for screen size < 676px to to adjust margins, size and positining of quotes */
+/* media query for screen size < 676px to adjust margins, size and positioning of quotes */
 @media screen and (min-width: 676px) {
     #hero-outer {
         margin: 0 4rem 2.5rem 4rem;
@@ -491,7 +491,7 @@ form p {
     }
 }
 
-/* media query for screen size < 905px to remove hambuerger menu */
+/* media query for screen size < 905px to remove hamburger menu */
 @media screen and (min-width: 905px) {
     html {
         scroll-padding-top: 59px;
