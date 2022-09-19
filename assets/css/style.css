@@ -230,7 +230,6 @@ section ol li {
 /* styling for contact us section */
 .contact {
     display: grid;
-    margin: 2rem 1rem;
 }
 
 form p {
@@ -247,6 +246,10 @@ form p {
     font-size: 1.6rem; 
  }
 
+.text-input:hover {
+    border: 2px solid var(--pale-blue);
+}
+
 #name, #email {
     line-height: 3rem;
 }
@@ -254,6 +257,7 @@ form p {
 #submit {
     font-family: "El Messiri", sans-serif;
     font-weight: 500;
+    margin: 2rem 1rem;
     background-color: var(--dark-grey);
     color: #fff;
     cursor: pointer;
@@ -324,7 +328,7 @@ form p {
     background-color: var(--dark-blue);
     color: #fff;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 1.6rem;
     width: 15rem;
     line-height: 3rem;
