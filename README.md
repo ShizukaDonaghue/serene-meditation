@@ -33,7 +33,7 @@ The initial concept was to create a website that would inspire users to start me
 Serene Meditation consists of two HTML pages. The main page is the default loading page and the second page is accesible when users submit messages from the main page. There are five sections within the main page and they are also accessible from the navigation menu at the top of the page.
 
 ### Colour Scheme
-The colour scheme for the website takes inspiration from the hero image of Mt. Fuji in beautiful pink sky. The colours chosen are calming and relaxing to enhance user experience. 
+The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji with beautiful pink sky at sunrise. The colours chosen are calming and relaxing to enhance user experience. 
 
 ### Typography
 Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
@@ -53,10 +53,13 @@ Detailed Alt attribute is included for each image to describe the image. The int
 ## Technologies Used
 * The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/) 
 * The colour scheme ideas and actual colour palette was generated with [Coolors.co](https://coolors.co/)
-* All images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website will load quickly
+* Images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website will load quickly
 * The website uses icons from [Font Awesome](https://fontawesome.com/)
 * The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website will load quickly
-
+* [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) were used extensively while adjusting the objects in the website for different screen sizes. 
+* The website was validated using [W3C HTML Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+* [Am I responseive?](https://ui.dev/amiresponsive) was used to generage the mockup image showing the website on various screen sizes.
+* Balsamic
 
 ## Testing
 
