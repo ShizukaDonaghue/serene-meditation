@@ -19,17 +19,19 @@ https://github.com/ShizukaDonaghue/serene-meditation
 ## UX: User Experience
 ### User Stories
 As a user, 
-* I would like the website to be visually appealing and gives me a sense of calm and peace.
+* I would like the website to be visually appealing and gives me a sense of peace and calm.
 * I would like to understand what meditation is and its benefits.
 * I would like to be able to learn meditation techniques and how to get started.
 * I would like to be inspired to start meditation.
 * I would like to be able to ask questions or provide feedback.
 
 ### Initial Concept
-The initial concept was to create a website that would inspire users to start meditation practice and help them get started. Therefore, the website would explain what the benefits are and what types of techniques are available, so that users can try different techniques and decide which one would suit them best. 
+The initial concept was to create a website that would inspire users to start meditation practice and help them get started. Therefore, the website would explain what benefits they could expect and what types of techniques were available, so that users could try different techniques to start their journey. 
 
 ### Wireframes
 ### Website Structure
+Serene Meditation consists of two HTML pages. The main page is the default loading page and the second page is accesible when users submit messages from the main page. There are five sections within the main page and they are also accessible from the navigation menu at the top of the page.
+
 ### Colour Scheme
 The colour scheme for the website takes inspiration from the hero image of Mt. Fuji in beautiful pink sky. The colours chosen are calming and relaxing to enhance user experience. 
 
