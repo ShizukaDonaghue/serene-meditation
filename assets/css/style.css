@@ -324,7 +324,7 @@ form p {
     background-color: var(--dark-blue);
     color: #fff;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 1.6rem;
     width: 15rem;
     line-height: 3rem;
