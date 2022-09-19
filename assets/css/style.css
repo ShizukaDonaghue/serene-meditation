@@ -78,7 +78,7 @@ nav li {
     font-size: 110%;
 }
 
-/* styling for responsive (hamburger) navigation bar */
+/* styling for responsive (hamburger) navigation menu */
 nav a:hover {
     color: var(--pale-blue);
 }
@@ -250,7 +250,7 @@ form p {
     line-height: 3rem;
 }
 
-.submit {
+#submit {
     font-family: "El Messiri", sans-serif;
     font-weight: 500;
     margin: 2rem 1rem; 
@@ -263,7 +263,7 @@ form p {
     line-height: 3rem;    
 }
 
-.submit:hover {
+#submit:hover {
     color: var(--pale-blue)
 }
 
@@ -336,7 +336,7 @@ form p {
 }
 
 /* media query for screen sizes < 376px to prevent logo from overlapping with responsive (hamburger) 
-    navigation bar and prevent inspirational quotes from overflowing to another row */
+    navigation menu and prevent inspirational quotes from overflowing to another row */
 @media screen and (max-width: 376px) {
     html {
         scroll-padding-top: 41px; 
@@ -400,12 +400,16 @@ form p {
         top: 15%;
     }
 
-    .submit {
+    #submit {
         font-size: 110%;
     }
 
     #thank-you-outer {
         margin: 0 2.5rem 2rem 2.5rem;
+    }
+
+    #home-button {
+        font-size: 110%;
     }
 }
 
@@ -441,12 +445,16 @@ form p {
         width: 70%;
     }
 
-    .submit {
+    #submit {
         font-size: 120%;
     }
-
+    
     #thank-you-outer {
         margin: 0 3rem 2.5rem 3rem;
+    }
+
+    #home-button {
+        font-size: 120%;
     }
 }
 
@@ -595,7 +603,7 @@ form p {
         font-size: 1.7rem;
     }
 
-    .submit {
+    #submit {
         font-size: 130%;
         width: 17rem;
     }
@@ -606,6 +614,11 @@ form p {
 
     #thank-you-outer {
         margin: 0 6rem 3.5rem 6rem;
+    }
+
+    #home-button {
+        font-size: 130%;
+        width: 17rem;
     }
 }
 
@@ -641,9 +654,8 @@ form p {
         font-size: 1.8rem;
     }
 
-    .submit {
+    #submit {
         font-size: 140%;
-        width: 17rem;
     }
 
     .social-media i {
@@ -653,6 +665,10 @@ form p {
     #thank-you-outer {
         width: 1100px;
         margin: 0 auto 3.5rem auto;
+    }
+
+    #home-button {
+        font-size: 140%;
     }
 }
 
