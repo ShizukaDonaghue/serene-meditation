@@ -263,7 +263,7 @@ form p {
     cursor: pointer;
     border-radius: 10px;
     font-size: 1.6rem;
-    width: 15rem;
+    width: 150px;
     line-height: 3rem;    
 }
 
@@ -330,7 +330,7 @@ form p {
     cursor: pointer;
     border-radius: 10px;
     font-size: 1.6rem;
-    width: 15rem;
+    width: 150px;
     line-height: 3rem;
     margin-bottom: 6rem;
 }
