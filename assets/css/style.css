@@ -260,7 +260,12 @@ form p {
     text-align: center;
     font-size: 1.6rem;
     line-height: 3rem;
+    cursor: pointer;
     width:15rem;
+}
+
+.submit:hover {
+    color: var(--pale-blue)
 }
 
 /* styling for footer with social media links */
@@ -306,6 +311,30 @@ form p {
 
 #thank-you-quote p {
     text-align: center;
+}
+
+/* styling for back to home button in thank-you.html */
+#home-button-outer {
+    display: flex;
+    justify-content: center;
+}
+
+#home-button {
+    font-family: "El Messiri", sans-serif;
+    font-weight: 500;
+    background-color: var(--dark-blue);
+    color: #fff;
+    margin: 1.2rem 1rem;
+    line-height: 3rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    width: 15rem;
+    margin-bottom: 5rem;
+}
+
+#home-button:hover {
+    color: var(--pale-blue)
 }
 
 /* media query for screen sizes < 376px to prevent logo from overlapping with responsive (hamburger) 
