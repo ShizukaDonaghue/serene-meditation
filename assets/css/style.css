@@ -230,6 +230,7 @@ section ol li {
 /* styling for contact us section */
 .contact {
     display: grid;
+    margin: 2rem 1rem;
 }
 
 form p {
@@ -253,13 +254,12 @@ form p {
 #submit {
     font-family: "El Messiri", sans-serif;
     font-weight: 500;
-    margin: 2rem 1rem; 
     background-color: var(--dark-grey);
     color: #fff;
     cursor: pointer;
     border-radius: 10px;
     font-size: 1.6rem;
-    width:15rem;
+    width: 15rem;
     line-height: 3rem;    
 }
 
