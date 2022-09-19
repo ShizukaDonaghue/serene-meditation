@@ -16,12 +16,18 @@ https://github.com/ShizukaDonaghue/serene-meditation
 ## Table of Contents
 
 
-## Objective
-
-
 ## UX: User Experience
 ### User Stories
+As a user, 
+* I would like the website to be visually appealing and gives me a sense of calm and peace.
+* I would like to understand what meditation is and its benefits.
+* I would like to be able to learn meditation techniques and how to get started.
+* I would like to be inspired to start meditation.
+* I would like to be able to ask questions or provide feedback.
+
 ### Initial Concept
+The initial concept was to create a website that would inspire users to start meditation practice and help them get started. Therefore, the website would explain what the benefits are and what types of techniques are available, so that users can try different techniques and decide which one would suit them best. 
+
 ### Wireframes
 ### Website Structure
 ### Colour Scheme
