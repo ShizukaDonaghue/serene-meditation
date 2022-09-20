@@ -112,15 +112,19 @@ Thank you HTML
 * The navigation bar currently does not have a drop down menu for "Techniques" section. A drop down menu will enable users to select a specific technique from the navigation bar. XXXXX EXPLAIN WHY THIS WAS NOT IMPLEMENTED  
 
 ## Technologies Used
-* The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/) 
-* The colour scheme ideas and actual colour palette were generated with [Coolors.co](https://coolors.co/)
-* Images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website will load quickly
+* The website was created with [HTML](https://html.spec.whatwg.org/).
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) was used to add styling to the website.
+* [Gitpod](https://www.gitpod.io/) was used to create, edit and previow the codes.
+* [GitHub](https://github.com/) was used to use to store the codes and deploy the website.
+* The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/). 
+* The colour scheme ideas and actual colour palette were generated with [Coolors.co](https://coolors.co/).
+* Images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website will load quickly.
 * The website uses icons from [Font Awesome](https://fontawesome.com/)
-* The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website will load quickly
+* The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website will load quickly.
 * [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) were used extensively while adjusting the objects in the website for different screen sizes. 
 * The website was validated using [W3C HTML Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 * [Am I responsive?](https://ui.dev/amiresponsive) was used to generate the mockup image showing the website on various screen sizes.
-* Balsamic
+* Balsamic  REMOVE THIS IF WIREFRAMES NOT INCLUDED
 
 ## Testing
 
