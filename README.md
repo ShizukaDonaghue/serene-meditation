@@ -31,15 +31,15 @@ The initial concept was to create a website that would inspire users to start me
 ### Wireframes
 
 ### Website Structure
-Serene Meditation consists of two HTML pages. The main page is the default landing page and the second page is accessible when the user submits a message from the main page to thank them for their message. 
+Serene Meditation consists of two HTML pages. The layout of the website is simple and consistent full page scroll with a fixed navigation bar at the top. The intention for this simple design is to have a clean and uncluttered website in which the user can feel calm and relaxed. 
 
-The layout of the website is simple and consistent full page scroll with a fixed navigation bar at the top. There are five sections within the main page and they are also accessible from the navigation bar to bring the user to a specific section of the page. 
+The main page is the default landing page and the second page is accessible when the user submits a message from the main page to thank them for their message. There are five sections within the main page and they are also accessible from the navigation bar to bring the user to a specific section of the page. 
 
-In addition to the navigation bar, the second page includes a "Home" button, so that the user can easily navigate back to the main page after submitting a message. The logo is linked to the top of main page to delivery the same effect and the user can also choose to navigate to a specific section of the main page from the navigation bar on the second page. 
+In addition to the navigation bar, the second page includes a "Home" button, so that the user can easily navigate back to the main page after submitting a message. The logo is linked to the top of main page to deliver the same effect and the user can also choose to navigate to a specific section of the main page from the navigation bar on the second page. 
 
-The website is responsive to different viewport sizes and the layout is the same in all sizes with images spanning across the full width of the page. All images are adjusted to the full width of the viewport, and they are displayed in the same size across the website for consistency. 
+The website is fully responsive to different screen sizes and the layout is the same in all sizes with images spanning across the full width of the page. All images are adjusted to the full width of the screen, and they are displayed in the same size across the website for consistency. 
 
-Each of these images includes an inspiration quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their journey, and therefore, the images are an integral part of the website.
+Each of these images includes an inspiration quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their meditation journey, and therefore, the images are an integral part of the website.
 
 ### Imagery
 The images are carefully chosen to set the calm and peaceful tone for the website. They are beautiful images of sunrise to signify the start of a meditation journey. 
@@ -63,7 +63,7 @@ There are two fonts used in the website and they are imported from [Google Fonts
 * Navigation Bar    
 Featured on both HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page, and a link to each section within the main page. This will allow the user to easily navigate to their desired section without having to use the "back" button each time.
 
-    Navigation bar for smaller viewport sizes <905px:
+    Navigation bar for smaller screen sizes <905px:
 
    <img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width=240>
 
@@ -71,7 +71,7 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
 
    <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width=240>
     
-    Navigation bar for larger viewport sizes >=905px: <br>
+    Navigation bar for larger screen sizes >=905px: <br>
    <img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes">
     When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
 
@@ -107,7 +107,7 @@ Thank you HTML
 
 
 ### Future Features
-* The drop down menu from the navigation bar for smaller viewport sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop down menu disappers once the user selects one of the sections, or taps outside of the drop down menu, it would help to improve user experience. This is something that can be implemented once I learn JavaScript.   
+* The drop down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop down menu disappers once the user selects one of the sections, or taps outside of the drop down menu, it would help to improve user experience. This is something that can be implemented once I learn JavaScript.   
 
 * The navigation bar currently does not have a drop down menu for "Techniques" section. A drop down menu will enable users to select a specific technique from the navigation bar. XXXXX EXPLAIN WHY THIS WAS NOT IMPLEMENTED  
 
