@@ -65,15 +65,15 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
 
     Navigation bar for smaller screen sizes <905px:
 
-   <img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width=240>
+   <img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width=260>
 
     When the hamburger menu is clicked or tapped, the drop down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they can see that the desired section is now at the top of the screen. Furthermore, when the drop down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the menu is closed.
 
-   <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width=240>
+   <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width=260>
     
     Navigation bar for larger screen sizes >=905px: <br>
 
-   <img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes" width=550>
+   <img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes" width=600>
 
     When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
 
@@ -140,11 +140,11 @@ The issue was resolved by changing the scroll-padding-top property from rem to p
 
 Image showing scroll-padding not applied correctly before the issue was resolved:
 
-<img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width="300"/>
+<img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width="260"/>
 
 Image showing scroll-padding applied correctly after the fix:
 
-<img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width="300"/>
+<img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width="260"/>
 
 #### Unresolved
 
