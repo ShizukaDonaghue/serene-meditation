@@ -37,22 +37,25 @@ The layout of the website is simple and consistent full page scroll with a fixed
 
 In addition to the navigation menu, the second page includes an intuitive "Home" button, so that the user can easily navigate back to the main page after submitting a message. The logo is linked to the top of main page to delivery the same effect and the user can also choose to navigate to a specific section of the main page from the navigation menu on the second page. 
 
-The website is responsive to different screen sizes and the layout is the same in all screen sizes with images spanning across the full width of the page. All images are displayed in the same size across the website for consistency. 
+The website is responsive to different viewport sizes and the layout is the same in all sizes with images spanning across the full width of the page. All images are adjusted to the full width of the viewport, however, they are displayed in the same size across the website for consistency. 
 
 Each of these images includes an inspiration quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their journey. Therefore, the images are the key part of the website.
 
 ### Imagery
 The images are carefully chosen to set the calm and peaceful tone for the website. They are beautiful images of sunrise to signify the start of a meditation journey. 
 
-Detailed alt attribute is included for each image to describe the scenary. The intention for this is to improve accessibility so that the images will convey the same message for all users.
+Detailed alt attribute is included for each image to describe the scenery. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
 
 ### Colour Scheme
 The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji with beautiful pink sky at sunrise. The colours chosen are calming and relaxing to enhance user experience. 
 
+The main background colour for the website is pale pink F3E4E4 and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation menu is in dary blue 092039 with contrasting white FFFFFF font. The dark pink C98282 is used for the social media icons in the footer so as not to distract from the main contents. The light blue 68A5BF is used for hover effects within the website.
+
+<img src="docs/images/colour-palette.png" alt="Image showing the colours used for the website" width="500"/>
+
+
 ### Typography
-Fonts were imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
-
-
+There are two fonts used in the website and they are imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
 
 ## Features
 ### Existing Features
