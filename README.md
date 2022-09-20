@@ -31,11 +31,11 @@ The initial concept was to create a website that would inspire users to start me
 ### Wireframes
 
 ### Website Structure
-Serene Meditation consists of two HTML pages. The main page is the default loading page and the second page is accessible when the user submits a message from the main page to thank them for their message. 
+Serene Meditation consists of two HTML pages. The main page is the default landing page and the second page is accessible when the user submits a message from the main page to thank them for their message. 
 
-The layout of the website is simple and consistent full page scroll with a fixed navigation menu at the top. There are five sections within the main page and they are also accessible from the navigation menu to bring the user to a specific section of the page. 
+The layout of the website is simple and consistent full page scroll with a fixed navigation bar at the top. There are five sections within the main page and they are also accessible from the navigation bar to bring the user to a specific section of the page. 
 
-In addition to the navigation menu, the second page includes a "Home" button, so that the user can easily navigate back to the main page after submitting a message. The logo is linked to the top of main page to delivery the same effect and the user can also choose to navigate to a specific section of the main page from the navigation menu on the second page. 
+In addition to the navigation bar, the second page includes a "Home" button, so that the user can easily navigate back to the main page after submitting a message. The logo is linked to the top of main page to delivery the same effect and the user can also choose to navigate to a specific section of the main page from the navigation bar on the second page. 
 
 The website is responsive to different viewport sizes and the layout is the same in all sizes with images spanning across the full width of the page. All images are adjusted to the full width of the viewport, and they are displayed in the same size across the website for consistency. 
 
@@ -49,17 +49,46 @@ Detailed alt attribute is included for each image to describe the scenery. The i
 ### Colour Scheme
 The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and surrounding sky pink. The colours chosen are calming and relaxing to enhance user experience. 
 
-The background colour for the website is pale pink F3E4E4 and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation menu is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
+The background colour for the website is pale pink F3E4E4 and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
+
+Colour palette generated using [Coolors.co](https://coolors.co/):
 
 <img src="docs/images/colour-palette.jpg" alt="Image showing the colours used for the website"/>
-
 
 ### Typography
 There are two fonts used in the website and they are imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
 
 ## Features
 ### Existing Features
+* Navigation Bar    
+Featured on both HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page, and a link to each section within the main page. This will allow the user to easily navigate to their desired section without having to use the "back" button each time.
+
+    Navigation bar for smaller viewport sizes:
+
+   <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar for smaller viewport sizes" height="38">
+
+    Navigation bar for larger viewport sizes:
+
+   <img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes" height="40">
+
+* The Landing Page Image 
+The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start meditation practice.
+
+   <img src="docs/images/landing-page-image.png" alt="Image showing the landing page image"/>
+
+The website also includes four other images of sunrise and inspirational quotes to 
+
+
+* Footer
+The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links will open to a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
+
+
+
+
+
 ### Future Features
+* The drop down menu from the navigation bar for smaller viewport sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop down menu disappers once the user selects one of the sections, or taps outside of the drop down menu, it would help to improve user experience. This is something that can be implemented once I learn JavaScript.   
+
 * The navigation bar currently does not have a drop down menu for "Techniques" section. A drop down menu will enable users to select a specific technique from the navigation bar. XXXXX EXPLAIN WHY THIS WAS NOT IMPLEMENTED  
 
 ## Technologies Used
@@ -107,7 +136,6 @@ Image showing scroll-padding applied correctly after the fix:
 * Images used were sourced from [pxhere.com](https://pxhere.com/) and [pixabay.com](https://pixabay.com/)
 ### Codes
 * The responsive navigation bar was inspired by YouTube tutorial by [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA)
-* JavaScript codes to close the drop down menu for the responsive navigation bar was provided by [Simen Daehlin](https://github.com/Eventyret)
 
 ## Acknowledgements
 * 
