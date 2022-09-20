@@ -49,7 +49,7 @@ Detailed alt attribute is included for each image to describe the scenery. The i
 ### Colour Scheme
 The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji with beautiful pink sky at sunrise. The colours chosen are calming and relaxing to enhance user experience. 
 
-The main background colour for the website is pale pink F3E4E4 and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation menu is in dary blue 092039 with contrasting white FFFFFF font. The dark pink C98282 is used for the social media icons in the footer so as not to distract from the main contents. The light blue 68A5BF is used for hover effects within the website.
+The main background colour for the website is pale pink F3E4E4 and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation menu is in dark blue 092039 with contrasting white FFFFFF font. The dark pink C98282 is used for the social media icons in the footer and the light blue 68A5BF is used for hover effects within the website.
 
 <img src="docs/images/colour-palette.jpg" alt="Image showing the colours used for the website"/>
 
