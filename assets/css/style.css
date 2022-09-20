@@ -244,6 +244,7 @@ form p {
     margin-right: 1rem;
     font-family: "El Messiri", sans-serif;
     font-size: 1.6rem; 
+    color: var(--dark-grey);
  }
 
 .text-input:hover {
@@ -295,7 +296,7 @@ form p {
 
 #thank-you-quote {
     margin-top: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     text-align: center;
     width: 100%;
 }
@@ -309,7 +310,7 @@ form p {
 #thank-you-footer {
     font-size: 80%;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 #thank-you-quote p {
@@ -332,7 +333,7 @@ form p {
     font-size: 1.6rem;
     width: 150px;
     line-height: 3rem;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 #home-button:hover {
