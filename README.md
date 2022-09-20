@@ -72,7 +72,9 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
    <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width=240>
     
     Navigation bar for larger screen sizes >=905px: <br>
+
    <img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes" width=550>
+
     When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
 
 * The Landing Page Image <br> 
@@ -83,12 +85,12 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
     The website also includes four other images of sunrise and inspirational quotes to suit the section that they are displayed, which also aims to generate positive emotional response in the user to get started.  
 
 * The following sections are included within the website:
-    - What is meditation? <br>
-        This section provides an overview of meditation, explaning what medidation is.
+    - What is Meditation? <br>
+        This section provides an overview of meditation, explaining what meditation is.
     - Benefits of Meditation <br>
         This section summarises the main benefits the user could expect from meditation practice.
     - Techniques <br>
-        This section contains the details of five techniques available, including how to practise them. In additioin, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate positive emotional response.
+        This section contains the details of five techniques available, including how to practise them. In addition, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate positive emotional response.
 
         <img src="docs/images/mindfulness-meditation-image.png" alt="Image showing the image for mindfulness meditation and inspirational quote" width=500>
 
@@ -103,27 +105,25 @@ The footer section includes links to the social media sites as well as my own Gi
 
     <img src="docs/images/footer-image.png" alt="Image showing the footer" width=240>
 
-* Thank you page <br>
+* Thank You Page <br>
 When the user sends a message, the second HTML page opens to thank them for their message. The navigation bar is consistent with the main page and this includes a "Home" button, so that the user can easily navigate back to the main page.
 
-    <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=240>
-
-
+    <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=300>
 
 ### Future Features
-* The drop down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop down menu disappers once the user selects one of the sections, or taps outside of the drop down menu, it would help to improve user experience. This is something that can be implemented once I learn JavaScript.   
+* The drop down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop down menu disappears once the user selects one of the sections, or taps outside of the drop down menu, it would help to improve user experience. This is something that can be implemented once I learn JavaScript.   
 
 * The navigation bar currently does not have a drop down menu for "Techniques" section. A drop down menu will enable users to select a specific technique from the navigation bar. XXXXX EXPLAIN WHY THIS WAS NOT IMPLEMENTED  
 
 ## Technologies Used
 * The website was created with [HTML](https://html.spec.whatwg.org/).
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) was used to add styling to the website.
-* [Gitpod](https://www.gitpod.io/) was used to create, edit and previow the codes.
+* [Gitpod](https://www.gitpod.io/) was used to create, edit and preview the codes.
 * [GitHub](https://github.com/) was used to use to store the codes and deploy the website.
 * The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/). 
 * The colour scheme ideas and actual colour palette were generated with [Coolors.co](https://coolors.co/).
 * Images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website will load quickly.
-* The website uses icons from [Font Awesome](https://fontawesome.com/)
+* The website uses icons from [Font Awesome](https://fontawesome.com/).
 * The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website will load quickly.
 * [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) were used extensively while adjusting the objects in the website for different screen sizes. 
 * The website was validated using [W3C HTML Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
