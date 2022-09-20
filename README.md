@@ -72,7 +72,7 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
    <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width=240>
     
     Navigation bar for larger screen sizes >=905px: <br>
-   <img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes">
+   <img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes" width=550>
     When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
 
 * The Landing Page Image <br> 
@@ -84,11 +84,11 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
 
 * The following sections are included within the website:
     - What is meditation? <br>
-        This section gives an overview of meditation, explaning what medidation is.
+        This section provides an overview of meditation, explaning what medidation is.
     - Benefits of Meditation <br>
         This section summarises the main benefits the user could expect from meditation practice.
     - Techniques <br>
-        This section contains the details of five techniques available, explaning how to practise them. In additioin, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate positive emotional response.
+        This section contains the details of five techniques available, including how to practise them. In additioin, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate positive emotional response.
 
         <img src="docs/images/mindfulness-meditation-image.png" alt="Image showing the image for mindfulness meditation and inspirational quote" width=500>
 
@@ -98,11 +98,15 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
         This section contains a form that allows the user to send a message to ask questions or provide feedback. <br>
         <img src="docs/images/contact-us-image.png" alt="Image showing the contact us section" width="240">
 
-
-* Footer
+* Footer <br>
 The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links will open to a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
 
-Thank you HTML
+    <img src="docs/images/footer-image.png" alt="Image showing the footer" width=240>
+
+* Thank you page <br>
+When the user sends a message, the second HTML page opens to thank them for their message. The navigation bar is consistent with the main page and this includes a "Home" button, so that the user can easily navigate back to the main page.
+
+    <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=240>
 
 
 
