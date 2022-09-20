@@ -4,7 +4,7 @@ Welcome to Serene meditation. This is a website that introduces meditation to th
 
 The users of this website will become familiar with what meditation is, benefits of meditation, meditation techniques and tips and tricks to start their meditation journey.
 
-<img src="docs/images/responsive-view.png" alt="Image showing how the website looks on different screen sizes"/>
+<img src="docs/images/responsive-view.png" alt="Image showing how the website looks on different screen sizes">
 
 ## Live Website
 [Serene Meditation](https://shizukadonaghue.github.io/serene-meditation/)
@@ -39,7 +39,7 @@ In addition to the navigation bar, the second page includes a "Home" button, so 
 
 The website is responsive to different viewport sizes and the layout is the same in all sizes with images spanning across the full width of the page. All images are adjusted to the full width of the viewport, and they are displayed in the same size across the website for consistency. 
 
-Each of these images includes an inspiration quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their journey, and therefore, the images are the integral part of the website.
+Each of these images includes an inspiration quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their journey, and therefore, the images are an integral part of the website.
 
 ### Imagery
 The images are carefully chosen to set the calm and peaceful tone for the website. They are beautiful images of sunrise to signify the start of a meditation journey. 
@@ -53,7 +53,7 @@ The background colour for the website is pale pink F3E4E4 and the font for the m
 
 Colour palette generated using [Coolors.co](https://coolors.co/):
 
-<img src="docs/images/colour-palette.jpg" alt="Image showing the colours used for the website"/>
+<img src="docs/images/colour-palette.jpg" alt="Image showing the colours used for the website">
 
 ### Typography
 There are two fonts used in the website and they are imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
@@ -63,26 +63,46 @@ There are two fonts used in the website and they are imported from [Google Fonts
 * Navigation Bar    
 Featured on both HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page, and a link to each section within the main page. This will allow the user to easily navigate to their desired section without having to use the "back" button each time.
 
-    Navigation bar for smaller viewport sizes:
+    Navigation bar for smaller viewport sizes <905px:
 
-   <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar for smaller viewport sizes" height="38">
+   <img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width="240">
 
-    Navigation bar for larger viewport sizes:
+    When the hamburger menu is clicked or tapped, the drop down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they can see that the desired section is now at the top of the screen. Furthermore, when the drop down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the menu is closed.
 
-   <img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes" height="40">
+   <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width="240">
+    
+    Navigation bar for larger viewport sizes >=905px: <br>
+   <img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes">
+    When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
 
-* The Landing Page Image 
-The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start meditation practice.
+* The Landing Page Image <br> 
+    The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start meditation practice.
 
-   <img src="docs/images/landing-page-image.png" alt="Image showing the landing page image"/>
+   <img src="docs/images/landing-page-image.png" alt="Image showing the landing page image and inspirational quote">
 
-The website also includes four other images of sunrise and inspirational quotes to 
+    The website also includes four other images of sunrise and inspirational quotes to suit the section that they are displayed, which also aims to generate positive emotional response in the user to get started.  
+
+* The following sections are included within the website:
+    - What is meditation? <br>
+        This section gives an overview of meditation, explaning what medidation is.
+    - Benefits of Meditation <br>
+        This section summarises the main benefits the user could expect from meditation practice.
+    - Techniques <br>
+        This section contains the details of five techniques available, explaning how to practise them. In additioin, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate positive emotional response.
+        
+        <img src="docs/images/mindfulness-meditation-image.png" alt="Image showoing the image for mindfulness meditation and inspirational quote>
+
+    - Tips & Tricks <br>
+        This section contains helpful tips and tricks to help the user start their meditation journey.
+    - Contact Us <br>
+        This section contains a form that allows the user to send a message to ask questions or provide feedback. <br>
+        <img src="docs/images/contact-us-image.png" alt="Image showing the contact us section" width="240">
 
 
 * Footer
 The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links will open to a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
 
-
+Thank you HTML
 
 
 
