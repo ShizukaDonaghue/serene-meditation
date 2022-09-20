@@ -98,7 +98,7 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
         This section contains helpful tips and tricks to help the user start their meditation journey.
     - Contact Us <br>
         This section contains a form that allows the user to send a message to ask questions or provide feedback. <br>
-        <img src="docs/images/contact-us-image.png" alt="Image showing the contact us section" width="240">
+        <img src="docs/images/contact-us-image.png" alt="Image showing the contact us section" width="400">
 
 * Footer <br>
 The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links will open to a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
@@ -108,7 +108,7 @@ The footer section includes links to the social media sites as well as my own Gi
 * Thank You Page <br>
 When the user sends a message, the second HTML page opens to thank them for their message. The navigation bar is consistent with the main page and this includes a "Home" button, so that the user can easily navigate back to the main page.
 
-    <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=300>
+    <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=400>
 
 ### Future Features
 * The drop down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop down menu disappears once the user selects one of the sections, or taps outside of the drop down menu, it would help to improve user experience. This is something that can be implemented once I learn JavaScript.   
