@@ -1,6 +1,6 @@
 # Serene Meditation
 
-Welcome to Serene meditation. This is a website that introduces meditation to people who are new to meditation and aims to help them get started with their meditation practice.
+Welcome to Serene meditation. This is a website that introduces meditation to those who are new to meditation and aims to help them get started with their meditation practice.
 
 The users of this website will become familiar with what meditation is, benefits of meditation, meditation techniques and tips and tricks to start their meditation journey.
 
@@ -30,7 +30,7 @@ The initial concept was to create a website that would inspire users to start me
 
 ### Wireframes
 ### Website Structure
-Serene Meditation consists of two HTML pages. The main page is the default loading page and the second page is accesible when users submit messages from the main page. There are five sections within the main page and they are also accessible from the navigation menu at the top of the page.
+Serene Meditation consists of two HTML pages. The main page is the default loading page and the second page is accessible when users submit messages from the main page. There are five sections within the main page and they are also accessible from the navigation menu at the top of the page.
 
 ### Colour Scheme
 The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji with beautiful pink sky at sunrise. The colours chosen are calming and relaxing to enhance user experience. 
@@ -43,7 +43,7 @@ The images are carefully chosen to set the calm and peaceful tone for the websit
 
 Each of these images includes an inspiration quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their journey.
 
-Detailed Alt attribute is included for each image to describe the image. The intention is to improve assessibility so that the images will convey the same message for all users.
+Detailed Alt attribute is included for each image to describe the image. The intention is to improve accessibility so that the images will convey the same message for all users.
 
 ## Features
 ### Existing Features
@@ -52,13 +52,13 @@ Detailed Alt attribute is included for each image to describe the image. The int
 
 ## Technologies Used
 * The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/) 
-* The colour scheme ideas and actual colour palette was generated with [Coolors.co](https://coolors.co/)
+* The colour scheme ideas and actual colour palette were generated with [Coolors.co](https://coolors.co/)
 * Images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website will load quickly
 * The website uses icons from [Font Awesome](https://fontawesome.com/)
 * The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website will load quickly
 * [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) were used extensively while adjusting the objects in the website for different screen sizes. 
 * The website was validated using [W3C HTML Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
-* [Am I responseive?](https://ui.dev/amiresponsive) was used to generage the mockup image showing the website on various screen sizes.
+* [Am I responsive?](https://ui.dev/amiresponsive) was used to generate the mockup image showing the website on various screen sizes.
 * Balsamic
 
 ## Testing
