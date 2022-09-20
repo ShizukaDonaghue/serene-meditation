@@ -65,11 +65,11 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
 
     Navigation bar for smaller viewport sizes <905px:
 
-   <img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width="240">
+   <img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width=240>
 
     When the hamburger menu is clicked or tapped, the drop down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they can see that the desired section is now at the top of the screen. Furthermore, when the drop down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the menu is closed.
 
-   <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width="240">
+   <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width=240>
     
     Navigation bar for larger viewport sizes >=905px: <br>
    <img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes">
@@ -78,7 +78,7 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
 * The Landing Page Image <br> 
     The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start meditation practice.
 
-   <img src="docs/images/landing-page-image.png" alt="Image showing the landing page image and inspirational quote">
+    <img src="docs/images/landing-page-image.png" alt="Image showing the landing page image and inspirational quote" width=500> 
 
     The website also includes four other images of sunrise and inspirational quotes to suit the section that they are displayed, which also aims to generate positive emotional response in the user to get started.  
 
@@ -89,8 +89,8 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
         This section summarises the main benefits the user could expect from meditation practice.
     - Techniques <br>
         This section contains the details of five techniques available, explaning how to practise them. In additioin, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate positive emotional response.
-        
-        <img src="docs/images/mindfulness-meditation-image.png" alt="Image showoing the image for mindfulness meditation and inspirational quote>
+
+        <img src="docs/images/mindfulness-meditation-image.png" alt="Image showing the image for mindfulness meditation and inspirational quote" width=500>
 
     - Tips & Tricks <br>
         This section contains helpful tips and tricks to help the user start their meditation journey.
