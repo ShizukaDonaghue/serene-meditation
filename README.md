@@ -33,13 +33,13 @@ The initial concept was to create a website that would inspire users to start me
 ### Website Structure
 Serene Meditation consists of two HTML pages. The main page is the default loading page and the second page is accessible when the user submits a message from the main page to thank them for their message. 
 
-The layout of the website is simple and consistent full page scroll with a fixed navigation menu at the top. There are five sections within the main page and they are also accessible from the navigation menu to bring the user to a specific desired section of the page. 
+The layout of the website is simple and consistent full page scroll with a fixed navigation menu at the top. There are five sections within the main page and they are also accessible from the navigation menu to bring the user to a specific section of the page. 
 
-In addition to the navigation menu, the second page includes an intuitive "Home" button, so that the user can easily navigate back to the main page after submitting a message. The logo is linked to the top of main page to delivery the same effect and the user can also choose to navigate to a specific section of the main page from the navigation menu on the second page. 
+In addition to the navigation menu, the second page includes a "Home" button, so that the user can easily navigate back to the main page after submitting a message. The logo is linked to the top of main page to delivery the same effect and the user can also choose to navigate to a specific section of the main page from the navigation menu on the second page. 
 
-The website is responsive to different viewport sizes and the layout is the same in all sizes with images spanning across the full width of the page. All images are adjusted to the full width of the viewport, however, they are displayed in the same size across the website for consistency. 
+The website is responsive to different viewport sizes and the layout is the same in all sizes with images spanning across the full width of the page. All images are adjusted to the full width of the viewport, and they are displayed in the same size across the website for consistency. 
 
-Each of these images includes an inspiration quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their journey. Therefore, the images are the key part of the website.
+Each of these images includes an inspiration quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their journey, and therefore, the images are the integral part of the website.
 
 ### Imagery
 The images are carefully chosen to set the calm and peaceful tone for the website. They are beautiful images of sunrise to signify the start of a meditation journey. 
@@ -47,9 +47,9 @@ The images are carefully chosen to set the calm and peaceful tone for the websit
 Detailed alt attribute is included for each image to describe the scenery. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
 
 ### Colour Scheme
-The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji with beautiful pink sky at sunrise. The colours chosen are calming and relaxing to enhance user experience. 
+The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and surrounding sky pink. The colours chosen are calming and relaxing to enhance user experience. 
 
-The main background colour for the website is pale pink F3E4E4 and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation menu is in dark blue 092039 with contrasting white FFFFFF font. The dark pink C98282 is used for the social media icons in the footer and the light blue 68A5BF is used for hover effects within the website.
+The background colour for the website is pale pink F3E4E4 and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation menu is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
 
 <img src="docs/images/colour-palette.jpg" alt="Image showing the colours used for the website"/>
 
