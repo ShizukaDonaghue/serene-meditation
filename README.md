@@ -53,60 +53,63 @@ The background colour for the website is pale pink F3E4E4 and the font for the m
 
 Colour palette generated using [Coolors.co](https://coolors.co/):
 
-<img src="docs/images/colour-palette.jpg" alt="Image showing the colours used for the website">
+<img src="docs/images/colour-palette.jpg" alt="Image showing the colours used for the website" width=700>
 
 ### Typography
 There are two fonts used in the website and they are imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
 
 ## Features
 ### Existing Features
-* Navigation Bar    
+#### Navigation Bar
 Featured on both HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page, rather than reloading the page for better user experience, and a link to each section within the main page. This will allow the user to easily navigate to their desired section without having to use the "back" button each time.
 
-    Navigation bar for screen sizes <905px:
+Navigation bar for screen sizes <905px:
 
-   <img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width=260>
+<img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width=300>
 
-    When the hamburger menu is clicked or tapped, the drop-down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop-down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they are able to see that the desired section is now at the top of the screen. Furthermore, when the drop-down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the drop-down menu is closed.
+When the hamburger menu is clicked or tapped, the drop-down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop-down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they are able to see that the desired section is now at the top of the screen. Furthermore, when the drop-down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the drop-down menu is closed.
 
-   <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width=260>
+<img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width=300>
     
-    Navigation bar for screen sizes >=905px: <br>
+Navigation bar for screen sizes >=905px: <br>
 
-   <img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes" width=600>
+<img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes" width=700>
 
-    When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
+When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
 
-* The Landing Page Image <br> 
-  The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start their meditation practice. The image include detailed alt attribute to describe the scenery, which aims to deliver the same effect to all users.
+#### The Landing Page Image <br> 
+The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start their meditation practice. The image include detailed alt attribute to describe the scenery, which aims to deliver the same effect to all users.
 
-  <img src="docs/images/landing-page-image.png" alt="Image showing the landing page image and inspirational quote" width=500> 
+<img src="docs/images/landing-page-image.png" alt="Image showing the landing page image and inspirational quote" width=500> 
 
-* What is Meditation? <br>
-  This section provides an overview of meditation, explaining what meditation is.
-* Benefits of Meditation <br>
-  This section summarises the main benefits the user could expect from meditation practice.
-* Techniques <br>
-  This section contains the details of five techniques available, including how to practise them. In addition, there are three images of sunrise and inspirational quotes to inspire the user, which aims to generate a positive emotional response and get started. These images also include detailed alt attribute to describe the scenery and intend to deliver the same effect for all users.
+#### What is Meditation? <br>
+This section provides an overview of meditation, explaining what meditation is.
 
-  <img src="docs/images/mindfulness-meditation-image.png" alt="Image showing the image for mindfulness meditation and inspirational quote" width=500>
+#### Benefits of Meditation <br>
+This section summarises the main benefits the user could expect from meditation practice.
 
-* Tips & Tricks <br>
-  This section contains helpful tips and tricks to help the user start their meditation journey.
-* Contact Us <br>
-  This section contains a form that allows the user to send a message to ask questions or provide feedback. When hovered over, the text input area displays the border in dark pink, which enables the user to see which field they are selecting.<br>
+#### Techniques <br>
+This section contains the details of five techniques available, including how to practise them. In addition, there are three images of sunrise and inspirational quotes to inspire the user, which aims to generate a positive emotional response and get started. These images also include detailed alt attribute to describe the scenery and intend to deliver the same effect for all users.
 
-  <img src="docs/images/contact-us-image.png" alt="Image showing the contact us section" width="400">
+<img src="docs/images/mindfulness-meditation-image.png" alt="Image showing the image for mindfulness meditation and inspirational quote" width=500>
 
-* Footer <br>
+#### Tips & Tricks <br>
+This section contains helpful tips and tricks to help the user start their meditation journey.
+
+#### Contact Us <br>
+This section contains a form that allows the user to send a message to ask questions or provide feedback. When hovered over, the text input area displays the border in dark pink, which enables the user to see which field they are selecting.<br>
+
+<img src="docs/images/contact-us-image.png" alt="Image showing the contact us section" width="400">
+
+#### Footer <br>
 The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links opens in a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
 
-    <img src="docs/images/footer-image.png" alt="Image showing the footer" width=240>
+<img src="docs/images/footer-image.png" alt="Image showing the footer" width=300>
 
-* Thank You Page <br>
+#### Thank You Page <br>
 When the user sends a message from the main page, the second HTML page opens to thank them for their message. The navigation bar is consistent with the main page and this includes a "Home" button so that the user can easily navigate back to the main page.
 
-    <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=400>
+<img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=400>
 
 ### Future Left to Implement
 * The drop-down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop-down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop-down menu disappears once the user selects one of the sections, or taps outside of the drop-down menu, it would help to improve the user experience. This is something that can be implemented once I learn JavaScript.   
@@ -138,11 +141,11 @@ The issue was resolved by changing the scroll-padding-top property from rem to p
 
 Image showing scroll-padding not applied correctly before the issue was resolved:
 
-<img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width="260"/>
+<img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width="300"/>
 
 Image showing scroll-padding applied correctly after the fix:
 
-<img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width="260"/>
+<img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width="300"/>
 
 #### Unresolved
 
