@@ -141,6 +141,7 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 * The website was created with [HTML](https://html.spec.whatwg.org/).
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) was used to add styling to the website.
 * [Gitpod](https://www.gitpod.io/) was used to create, edit and preview the codes.
+* [Git](https://git-scm.com/) was used for version control and tracked changes in the codes.
 * [GitHub](https://github.com/) was used to store the codes and deploy the website.
 * [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) were used extensively while adjusting the objects in the website for different screen sizes. 
 * The website was validated using [W3C HTML Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
@@ -151,6 +152,7 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 * The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website loads quickly.
 * The colour scheme ideas and actual colour palette were generated with [Coolors.co](https://coolors.co/).
 * Images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website loads quickly.
+* [Grammarly](https://app.grammarly.com/) was used to fix grammatical errors across the project.
 
 ## Testing
 
@@ -171,30 +173,30 @@ Image showing scroll-padding applied correctly after the fix:
 #### Unresolved
 
 ## Deployment
-The website has been deployed to GitHub.
+The website has been deployed using GitHub.
 
-### Deploy to GitHub Pages
+### Deploying a GitHub Repository via GitHub pages
 1. Navigate to the "Setting" tab in the GitHub repository.
 2. Select "Pages" from the menu on the left.
 3. Under "Sources," select "Deploy from a branch" and "Branch: main." Click on "Save." 
-4. GitHub takes a short while to publish the website. Refresh the page and once the website is deployed, the URL will be displayed. The website is now live and operational.
+4. GitHub takes a short while to publish the website. Refresh the page and once the website is deployed, the URL will be displayed. 
 
     <img src="docs/images/deploy-to-github-image.png" width=700>
 
-### Fork the Repository
-To make a copy of "fork" the repository,
+### Forking the GitHub Repository
+To make a copy or "fork" the original repository to view or make changes without affecting the original repository, 
 1. Log into GitHub and locate the repository.
 2. Select the "Fork" option at the top of the screen to create a copy of the repository.
+3. This will create a copy of the repository in your GitHub account.
 
     <img src="docs/images/fork-github-repository.png" width=700>
 
-### Create a Local Clone
+### Creating a Local Clone
 1. In the GitHub repository, select the "Code" button.
 2. In the "Clone" box, under the "HTTPS" tab, click on the clipboard icon to copy the URL.
-3. In your IDE, open GitBash.
-4. Change the current working directory to the location you would like the cloned directory to be made.
+3. In Gitpod, change the current working directory to the location you would like the cloned directory to be created.
 5. Type "git clone" and then paste the URL copied from GitHub.
-6. Press enter and the local clone will be created.
+6. Press "Enter" and the local clone will be created.
 
     <img src="docs/images/create-github-local-clone.png" width=700>
 
