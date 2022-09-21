@@ -29,6 +29,19 @@ As a user,
 The initial concept was to create a website that would inspire users to start their meditation practice and help them get started. Therefore, the website would explain what benefits they could expect and what types of techniques were available, so that users could try different techniques to start their journey. 
 
 ### Wireframes
+Wireframes were generated using [Balsamiq](https://balsamiq.com/) to visualise the structure of the website. The structure of the finished website slightly varies from the wireframes due to development that occurred during the building process, however, the main structure remained the same.
+
+Wireframes for mobiles:<br>
+
+<img src="docs/images/wireframe-for-mobile.png" alt="Image showing the wireframe for mobiles" width=300>
+
+Wireframes for tablets:<br>
+
+<img src="docs/images/wireframe-for-tablet.png" alt="Image showing the wireframe for tablets" width=500>
+
+Wireframes for desktop:<br>
+
+<img src="docs/images/wireframe-for-desktop.png" alt="Image showing the wireframe for tablets" width=500>
 
 ### Website Structure
 Serene Meditation consists of two HTML pages. The layout of the website is simple and consistent full page scroll with a fixed navigation bar at the top. The intention for this simple design is to have a clean and uncluttered website in which the user can feel calm and relaxed. 
