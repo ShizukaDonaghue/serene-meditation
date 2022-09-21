@@ -61,7 +61,7 @@ There are two fonts used in the website and they are imported from [Google Fonts
 ## Features
 ### Existing Features
 #### Navigation Bar
-Featured on both HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page, rather than reloading the page for better user experience, and a link to each section within the main page. This will allow the user to easily navigate to their desired section without having to use the "back" button each time.
+Featured on both HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page, rather than reloading the page for a better user experience, and a link to each section within the main page. This will allow the user to easily navigate to their desired section without having to use the "back" button each time.
 
 Navigation bar for screen sizes <905px:
 
@@ -78,7 +78,7 @@ Navigation bar for screen sizes >=905px: <br>
 When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
 
 #### The Landing Page Image <br> 
-The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start their meditation practice. The image include detailed alt attribute to describe the scenery, which aims to deliver the same effect to all users.
+The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start their meditation practice. The image includes detailed alt attribute to describe the scenery, which aims to deliver the same effect to all users.
 
 <img src="docs/images/landing-page-image.png" alt="Image showing the landing page image and inspirational quote" width=500> 
 
@@ -101,12 +101,12 @@ This section contains a form that allows the user to send a message to ask quest
 
 <img src="docs/images/contact-us-image.png" alt="Image showing the contact us section" width="400">
 
-When hovered over the "Submit" button with the cursor, the cursor changes to the hand pointer and the colour of "Submit" also changes from white to light blue to be more intuitive for the user to know that is a button. 
+When hovering over the "Submit" button with the cursor, the cursor changes to the hand pointer and the colour of "Submit" also changes from white to light blue, so that is more intuitive for the user to know that is a button. 
 
 <img src="docs/images/submit-button.png" alt="Image showing the submit button in light blue" width =130>
 
 #### Footer <br>
-The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links opens in a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
+The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links open in a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
 
 <img src="docs/images/footer-image.png" alt="Image showing the footer" width=300>
 
@@ -115,12 +115,12 @@ When the user sends a message from the main page, the second HTML page opens to 
 
 <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=400>
 
-When hovered over the "Home" button with the cursor, the cursor changes to the hand pointer and the colour of "Home" changes from white to light blue to be more intuitive for the user to know that is a button, and also to be consistent with the "Submit" button.
+When hovering over the "Home" button with the cursor, the cursor changes to the hand pointer and the colour of "Home" changes from white to light blue, so that is more intuitive for the user to know that is a button, and also to be consistent with the "Submit" button.
 
 <img src="docs/images/home-button.png" alt="Image showing the submit button in light blue" width=130>
 
 ### Future Left to Implement
-* The drop-down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop-down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop-down menu disappears once the user selects one of the sections, or taps outside of the drop-down menu, it would help to improve the user experience. This is something that can be implemented once I learn JavaScript.   
+* The drop-down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop-down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop-down menu disappears once the user selects one of the sections or taps outside of the drop-down menu, it would help to improve the user experience. This is something that can be implemented once I learn JavaScript.   
 
 * The navigation bar currently does not have a drop-down menu for the "Techniques" section, which will enable the user to navigate to a specific technique from the "Techniques" section of the navigation bar. This would be a nice addition to the website that can be implemented once I gain more experience in coding to do so.
 
