@@ -154,15 +154,13 @@ The website has been deployed to GitHub.
 2. Select "Pages" from the menu on the left.
 3. Under "Sources," select "Deploy from a branch" and "Branch: main." Click on "Save." 
 4. GitHub takes a short while to publish the website. Refresh the page and once the website is deployed, the URL will be displayed. The website is now live and operational.
-
-    <img src="docs/images/deploy-to-github-image.png" width=500>
+<img src="docs/images/deploy-to-github-image.png" width=500>
 
 ### Fork the Respository
 To make a copy of "fork" the respository,
 1. Log into GitHub and locate the repository.
 2. Select the "Fork" option at the top of the screen to create a copy of the repository.
-
-    <img src="docs/images/fork-github-repository.png" width=500>
+<img src="docs/images/fork-github-repository.png" width=500>
 
 ### Create a Local Clone
 1. In the GitHub repository, select "Code" button.
@@ -171,8 +169,7 @@ To make a copy of "fork" the respository,
 4. Change the current working directory to the location you would like the cloned directory to be made.
 5. Type "git clone" and then paste the URL copied from GitHub.
 6. Press enter and the local clone will be created.
-
-    <img src="docs/images/create-github-local-clone.png" width=500>
+<img src="docs/images/create-github-local-clone.png" width=500>
 
 ## Credits
 ### Contents
@@ -189,4 +186,6 @@ To make a copy of "fork" the respository,
 * The responsive navigation bar was inspired by YouTube tutorial by [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA)
 
 ## Acknowledgements
-* 
+This website was created as a portfolio 1 project for the Full Stack Software Development course at [UCD Professional Academy](https://codeinstitute.net/ie/) and [Code Institute](https://codeinstitute.net/ie/). I would like to thank my mentor, [Harry Dhillon](https://github.com/Harry-Leepz), for the guidance and encouragement given throughout the project. Following his valuable feedback and advice, the website has been refined to be more intuitive and it has improved the overall user experience. 
+
+I would also like to thank [Simen Daehlin](https://www.github.com/Eventyret) at [Code Institute](https://codeinstitute.net/ie/) for his patience and time answering all the questions during the class and also in Slack.
