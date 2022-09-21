@@ -108,7 +108,7 @@ When the user sends a message from the main page, the second HTML page opens to 
 
     <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=400>
 
-### Future Features
+### Future Left to Implement
 * The drop-down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop-down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop-down menu disappears once the user selects one of the sections, or taps outside of the drop-down menu, it would help to improve the user experience. This is something that can be implemented once I learn JavaScript.   
 
 * The navigation bar currently does not have a drop-down menu for the "Techniques" section, which will enable the user to navigate to a specific technique from the "Techniques" section of the navigation bar. This would be a nice addition to the website that can be implemented once I gain more experience in coding to do so.
@@ -147,7 +147,32 @@ Image showing scroll-padding applied correctly after the fix:
 #### Unresolved
 
 ## Deployment
+The website has been deployed to GitHub.
 
+### Deploy to GitHub Pages
+1. Navigate to the "Setting" tab in the GitHub repository.
+2. Select "Pages" from the menu on the left.
+3. Under "Sources," select "Deploy from a branch" and "Branch: main." Click on "Save." 
+4. GitHub takes a short while to publish the website. Refresh the page and once the website is deployed, the URL will be displayed. The website is now live and operational.
+
+    <img src="docs/images/deploy-to-github-image.png" width=500>
+
+### Fork the Respository
+To make a copy of "fork" the respository,
+1. Log into GitHub and locate the repository.
+2. Select the "Fork" option at the top of the screen to create a copy of the repository.
+
+    <img src="docs/images/fork-github-repository.png" width=500>
+
+### Create a Local Clone
+1. In the GitHub repository, select "Code" button.
+2. In the "Clone" box, under "HTTPS" tab, click on the clipboard icon to copy the URL.
+3. In your IDE, open GitBash.
+4. Change the current working directory to the location you would like the cloned directory to be made.
+5. Type "git clone" and then paste the URL copied from GitHub.
+6. Press enter and the local clone will be created.
+
+    <img src="docs/images/create-github-local-clone.png" width=500>
 
 ## Credits
 ### Contents
