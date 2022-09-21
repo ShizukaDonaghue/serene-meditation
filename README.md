@@ -2,7 +2,7 @@
 
 Welcome to Serene meditation. This is a website that introduces meditation to those who are new to meditation and aims to help them get started with their meditation practice.
 
-The users of this website will become familiar with what meditation is, benefits of meditation, meditation techniques and tips and tricks to start their meditation journey.
+The users of this website will become familiar with what meditation is, the benefits of meditation, meditation techniques and tips and tricks to start their meditation journey.
 
 <img src="docs/images/responsive-view.png" alt="Image showing how the website looks on different screen sizes">
 
@@ -26,7 +26,7 @@ As a user,
 * I would like to be able to ask questions or provide feedback.
 
 ### Initial Concept
-The initial concept was to create a website that would inspire users to start meditation practice and help them get started. Therefore, the website would explain what benefits they could expect and what types of techniques were available, so that users could try different techniques to start their journey. 
+The initial concept was to create a website that would inspire users to start their meditation practice and help them get started. Therefore, the website would explain what benefits they could expect and what types of techniques were available, so that users could try different techniques to start their journey. 
 
 ### Wireframes
 
@@ -35,11 +35,11 @@ Serene Meditation consists of two HTML pages. The layout of the website is simpl
 
 The main page is the default landing page and the second page is accessible when the user submits a message from the main page to thank them for their message. There are five sections within the main page and they are also accessible from the navigation bar to bring the user to a specific section of the page. 
 
-In addition to the navigation bar, the second page includes a "Home" button, so that the user can easily navigate back to the main page after submitting a message. The logo is linked to the top of main page to deliver the same effect and the user can also choose to navigate to a specific section of the main page from the navigation bar on the second page. 
+In addition to the navigation bar, the second page includes a "Home" button, so that the user can easily navigate back to the main page after submitting a message. The logo is linked to the top of the main page to deliver the same effect and the user can also choose to navigate to a specific section of the main page from the navigation bar on the second page. 
 
-The website is fully responsive to different screen sizes and the layout is the same in all sizes with images spanning across the full width of the page. All images are adjusted to the full width of the screen, and they are displayed in the same size across the website for consistency. 
+The website is fully responsive to different screen sizes and the layout is the same in all sizes with images spanning across the full width of the page. All images are adjusted to the full width of the screen, and they are displayed in the same size across the main page of the website for consistency. 
 
-Each of these images includes an inspiration quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their meditation journey, and therefore, the images are an integral part of the website.
+Each of these images includes an inspirational quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their meditation journey, and therefore, the images are an integral part of the website.
 
 ### Imagery
 The images are carefully chosen to set the calm and peaceful tone for the website. They are beautiful images of sunrise to signify the start of a meditation journey. 
@@ -47,7 +47,7 @@ The images are carefully chosen to set the calm and peaceful tone for the websit
 Detailed alt attribute is included for each image to describe the scenery. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
 
 ### Colour Scheme
-The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and surrounding sky pink. The colours chosen are calming and relaxing to enhance user experience. 
+The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and the surrounding sky pink. The colours chosen are calming and relaxing to enhance the user experience. 
 
 The background colour for the website is pale pink F3E4E4 and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
 
@@ -61,13 +61,13 @@ There are two fonts used in the website and they are imported from [Google Fonts
 ## Features
 ### Existing Features
 * Navigation Bar    
-Featured on both HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page, and a link to each section within the main page. This will allow the user to easily navigate to their desired section without having to use the "back" button each time.
+Featured on both HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page and a link to each section within the main page. This will allow the user to easily navigate to their desired section without having to use the "back" button each time.
 
     Navigation bar for smaller screen sizes <905px:
 
    <img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width=260>
 
-    When the hamburger menu is clicked or tapped, the drop down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they can see that the desired section is now at the top of the screen. Furthermore, when the drop down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the menu is closed.
+    When the hamburger menu is clicked or tapped, the drop-down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop-down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they can see that the desired section is now at the top of the screen. Furthermore, when the drop-down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the menu is closed.
 
    <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width=260>
     
@@ -78,11 +78,11 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
     When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
 
 * The Landing Page Image <br> 
-    The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start meditation practice.
+    The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start their meditation practice.
 
     <img src="docs/images/landing-page-image.png" alt="Image showing the landing page image and inspirational quote" width=500> 
 
-    The website also includes four other images of sunrise and inspirational quotes to suit the section that they are displayed, which also aims to generate positive emotional response in the user to get started.  
+    The website also includes four other images of sunrise and inspirational quotes to suit the section that they are displayed, which also aims to generate a positive emotional response in the user to get started.  
 
 * The following sections are included within the website:
     - What is Meditation? <br>
@@ -90,7 +90,7 @@ Featured on both HTML pages, the fully responsive navigation bar includes the lo
     - Benefits of Meditation <br>
         This section summarises the main benefits the user could expect from meditation practice.
     - Techniques <br>
-        This section contains the details of five techniques available, including how to practise them. In addition, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate positive emotional response.
+        This section contains the details of five techniques available, including how to practise them. In addition, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate a positive emotional response.
 
         <img src="docs/images/mindfulness-meditation-image.png" alt="Image showing the image for mindfulness meditation and inspirational quote" width=500>
 
@@ -106,14 +106,14 @@ The footer section includes links to the social media sites as well as my own Gi
     <img src="docs/images/footer-image.png" alt="Image showing the footer" width=240>
 
 * Thank You Page <br>
-When the user sends a message, the second HTML page opens to thank them for their message. The navigation bar is consistent with the main page and this includes a "Home" button, so that the user can easily navigate back to the main page.
+When the user sends a message, the second HTML page opens to thank them for their message. The navigation bar is consistent with the main page and this includes a "Home" button so that the user can easily navigate back to the main page.
 
     <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=400>
 
 ### Future Features
-* The drop down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop down menu disappears once the user selects one of the sections, or taps outside of the drop down menu, it would help to improve user experience. This is something that can be implemented once I learn JavaScript.   
+* The drop-down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop-down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop-down menu disappears once the user selects one of the sections, or taps outside of the drop-down menu, it would help to improve the user experience. This is something that can be implemented once I learn JavaScript.   
 
-* The navigation bar currently does not have a drop down menu for "Techniques" section. A drop down menu will enable users to select a specific technique from the navigation bar. XXXXX EXPLAIN WHY THIS WAS NOT IMPLEMENTED  
+* The navigation bar currently does not have a drop-down menu for the "Techniques" section. A drop-down menu will enable users to select a specific technique from the navigation bar. XXXXX EXPLAIN WHY THIS WAS NOT IMPLEMENTED  
 
 ## Technologies Used
 * The website was created with [HTML](https://html.spec.whatwg.org/).
@@ -153,10 +153,10 @@ Image showing scroll-padding applied correctly after the fix:
 
 ## Credits
 ### Contents
-* Contents for "What is Meditation?" section was sourced from [verywellmind](https://www.verywellmind.com/what-is-meditation-2795927)
-* Contents for "Benefits of Meditation" section was sourced from [WebMD](https://www.webmd.com/balance/video/daily-meditation-benefits)
-* Contents for "Meditation Techniques" section was sourced from [INSIDER](https://www.insider.com/guides/health/mental-health/types-of-meditation)
-* Contents for "Tips & Tricks" section was sourced from [verywellmind](https://www.verywellmind.com/what-is-meditation-2795927)
+* Contents for the "What is Meditation?" section were sourced from [verywellmind](https://www.verywellmind.com/what-is-meditation-2795927)
+* Contents for the "Benefits of Meditation" section were sourced from [WebMD](https://www.webmd.com/balance/video/daily-meditation-benefits)
+* Contents for the "Meditation Techniques" section were sourced from [INSIDER](https://www.insider.com/guides/health/mental-health/types-of-meditation)
+* Contents for the "Tips & Tricks" section were sourced from [verywellmind](https://www.verywellmind.com/what-is-meditation-2795927)
 * Inspirational quotes were sourced from [PositivePsychology](https://positivepsychology.com/mindfulness-quotes/), [Parade](https://parade.com/1066461/nicolepajer/meditation-quotes/), and [Keepinspiring.me](https://www.keepinspiring.me/25-meditation-quotes/)
 * README.md was inspired by [TashaTJ's repository](https://github.com/TashaTJ/pawsome-portraits-v4)
 
