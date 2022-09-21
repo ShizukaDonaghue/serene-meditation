@@ -33,7 +33,7 @@ Wireframes were generated using [Balsamiq](https://balsamiq.com/) to visualise t
 
 Wireframes for mobiles:<br>
 
-<img src="docs/images/wireframe-for-mobile.png" alt="Image showing the wireframe for mobiles" width=300>
+<img src="docs/images/wireframe-for-mobile.png" alt="Image showing the wireframe for mobiles" width=400>
 
 Wireframes for tablets:<br>
 
@@ -41,7 +41,7 @@ Wireframes for tablets:<br>
 
 Wireframes for desktop:<br>
 
-<img src="docs/images/wireframe-for-desktop.png" alt="Image showing the wireframe for tablets" width=500>
+<img src="docs/images/wireframe-for-desktop.png" alt="Image showing the wireframe for tablets" width=350>
 
 ### Website Structure
 Serene Meditation consists of two HTML pages. The layout of the website is simple and consistent full page scroll with a fixed navigation bar at the top. The intention for this simple design is to have a clean and uncluttered website in which the user can feel calm and relaxed. 
