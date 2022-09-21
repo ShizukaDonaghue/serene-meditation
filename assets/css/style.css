@@ -247,6 +247,10 @@ form p {
     color: var(--dark-grey);
  }
 
+.text-input:hover {
+    border: 2px solid var(--dark-pink);
+}
+
 #name, #email {
     line-height: 3rem;
 }
