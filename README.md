@@ -129,15 +129,15 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) was used to add styling to the website.
 * [Gitpod](https://www.gitpod.io/) was used to create, edit and preview the codes.
 * [GitHub](https://github.com/) was used to store the codes and deploy the website.
-* The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/). 
-* The colour scheme ideas and actual colour palette were generated with [Coolors.co](https://coolors.co/).
-* Images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website loads quickly.
-* The website uses icons from [Font Awesome](https://fontawesome.com/).
-* The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website loads quickly.
 * [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) were used extensively while adjusting the objects in the website for different screen sizes. 
 * The website was validated using [W3C HTML Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+* [Balsamiq](https://balsamiq.com/) was used to generate wireframes.
 * [Am I responsive?](https://ui.dev/amiresponsive) was used to generate the mockup image showing the website on various screen sizes.
-* Balsamic  REMOVE THIS IF WIREFRAMES NOT INCLUDED
+* The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/). 
+* The website uses icons from [Font Awesome](https://fontawesome.com/).
+* The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website loads quickly.
+* The colour scheme ideas and actual colour palette were generated with [Coolors.co](https://coolors.co/).
+* Images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website loads quickly.
 
 ## Testing
 
