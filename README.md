@@ -189,8 +189,8 @@ To make a copy of "fork" the repository,
     <img src="docs/images/fork-github-repository.png" width=700>
 
 ### Create a Local Clone
-1. In the GitHub repository, select "Code" button.
-2. In the "Clone" box, under "HTTPS" tab, click on the clipboard icon to copy the URL.
+1. In the GitHub repository, select the "Code" button.
+2. In the "Clone" box, under the "HTTPS" tab, click on the clipboard icon to copy the URL.
 3. In your IDE, open GitBash.
 4. Change the current working directory to the location you would like the cloned directory to be made.
 5. Type "git clone" and then paste the URL copied from GitHub.
@@ -200,17 +200,17 @@ To make a copy of "fork" the repository,
 
 ## Credits
 ### Contents
-* Contents for the "What is Meditation?" section were sourced from [verywellmind](https://www.verywellmind.com/what-is-meditation-2795927)
-* Contents for the "Benefits of Meditation" section were sourced from [WebMD](https://www.webmd.com/balance/video/daily-meditation-benefits)
-* Contents for the "Meditation Techniques" section were sourced from [INSIDER](https://www.insider.com/guides/health/mental-health/types-of-meditation)
-* Contents for the "Tips & Tricks" section were sourced from [verywellmind](https://www.verywellmind.com/what-is-meditation-2795927)
-* Inspirational quotes were sourced from [PositivePsychology](https://positivepsychology.com/mindfulness-quotes/), [Parade](https://parade.com/1066461/nicolepajer/meditation-quotes/), and [Keepinspiring.me](https://www.keepinspiring.me/25-meditation-quotes/)
-* README.md was inspired by [TashaTJ's repository](https://github.com/TashaTJ/pawsome-portraits-v4)
+* Contents for the "What is Meditation?" section were sourced from [verywellmind](https://www.verywellmind.com/what-is-meditation-2795927).
+* Contents for the "Benefits of Meditation" section were sourced from [WebMD](https://www.webmd.com/balance/video/daily-meditation-benefits).
+* Contents for the "Meditation Techniques" section were sourced from [INSIDER](https://www.insider.com/guides/health/mental-health/types-of-meditation).
+* Contents for the "Tips & Tricks" section were sourced from [verywellmind](https://www.verywellmind.com/what-is-meditation-2795927).
+* Inspirational quotes were sourced from [PositivePsychology](https://positivepsychology.com/mindfulness-quotes/), [Parade](https://parade.com/1066461/nicolepajer/.meditation-quotes/), and [Keepinspiring.me](https://www.keepinspiring.me/25-meditation-quotes/).
+* README.md was inspired by [TashaTJ's repository](https://github.com/TashaTJ/pawsome-portraits-v4).
 
 ### Media
-* Images used were sourced from [pxhere.com](https://pxhere.com/) and [pixabay.com](https://pixabay.com/)
+* Images used were sourced from [pxhere.com](https://pxhere.com/) and [pixabay.com](https://pixabay.com/).
 ### Codes
-* The responsive navigation bar was inspired by YouTube tutorial by [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA)
+* The responsive navigation bar was inspired by YouTube tutorial by [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA).
 
 ## Acknowledgements
 This website was created as a portfolio 1 project for the Full Stack Software Development course at [UCD Professional Academy](https://codeinstitute.net/ie/) and [Code Institute](https://codeinstitute.net/ie/). I would like to thank my mentor, [Harry Dhillon](https://github.com/Harry-Leepz), for the guidance and encouragement given throughout the project. Following his valuable feedback and advice, the website has been refined to be more intuitive and it has improved the overall user experience. 
