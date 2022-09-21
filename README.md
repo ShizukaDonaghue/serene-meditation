@@ -101,6 +101,10 @@ This section contains a form that allows the user to send a message to ask quest
 
 <img src="docs/images/contact-us-image.png" alt="Image showing the contact us section" width="400">
 
+When hovered over the "Submit" button with the cursor, the cursor changes to the hand pointer and the colour of "Submit" also changes from white to light blue to be more intuitive for the user to know that is a button. 
+
+<img src="docs/images/submit-button.png" alt="Image showing the submit button in light blue" width =120>
+
 #### Footer <br>
 The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links opens in a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
 
@@ -110,6 +114,10 @@ The footer section includes links to the social media sites as well as my own Gi
 When the user sends a message from the main page, the second HTML page opens to thank them for their message. The navigation bar is consistent with the main page and this includes a "Home" button so that the user can easily navigate back to the main page.
 
 <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=400>
+
+When hovered over the "Home" button with the cursor, the cursor changes to the hand pointer and the colour of "Home" changes from white to light blue to be more intuitive for the user to know that is a button, and also to be consistent with the "Submit" button.
+
+<img src="docs/images/home-button.png" alt="Image showing the submit button in light blue" width=120>
 
 ### Future Left to Implement
 * The drop-down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop-down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop-down menu disappears once the user selects one of the sections, or taps outside of the drop-down menu, it would help to improve the user experience. This is something that can be implemented once I learn JavaScript.   
@@ -158,14 +166,14 @@ The website has been deployed to GitHub.
 3. Under "Sources," select "Deploy from a branch" and "Branch: main." Click on "Save." 
 4. GitHub takes a short while to publish the website. Refresh the page and once the website is deployed, the URL will be displayed. The website is now live and operational.
 
-    <img src="docs/images/deploy-to-github-image.png" width=650>
+    <img src="docs/images/deploy-to-github-image.png" width=700>
 
 ### Fork the Repository
 To make a copy of "fork" the repository,
 1. Log into GitHub and locate the repository.
 2. Select the "Fork" option at the top of the screen to create a copy of the repository.
 
-    <img src="docs/images/fork-github-repository.png" width=650>
+    <img src="docs/images/fork-github-repository.png" width=700>
 
 ### Create a Local Clone
 1. In the GitHub repository, select "Code" button.
@@ -175,7 +183,7 @@ To make a copy of "fork" the repository,
 5. Type "git clone" and then paste the URL copied from GitHub.
 6. Press enter and the local clone will be created.
 
-    <img src="docs/images/create-github-local-clone.png" width=650>
+    <img src="docs/images/create-github-local-clone.png" width=700>
 
 ## Credits
 ### Contents
