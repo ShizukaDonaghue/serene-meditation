@@ -103,7 +103,7 @@ This section contains a form that allows the user to send a message to ask quest
 
 When hovered over the "Submit" button with the cursor, the cursor changes to the hand pointer and the colour of "Submit" also changes from white to light blue to be more intuitive for the user to know that is a button. 
 
-<img src="docs/images/submit-button.png" alt="Image showing the submit button in light blue" width =120>
+<img src="docs/images/submit-button.png" alt="Image showing the submit button in light blue" width =130>
 
 #### Footer <br>
 The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links opens in a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
@@ -117,7 +117,7 @@ When the user sends a message from the main page, the second HTML page opens to 
 
 When hovered over the "Home" button with the cursor, the cursor changes to the hand pointer and the colour of "Home" changes from white to light blue to be more intuitive for the user to know that is a button, and also to be consistent with the "Submit" button.
 
-<img src="docs/images/home-button.png" alt="Image showing the submit button in light blue" width=120>
+<img src="docs/images/home-button.png" alt="Image showing the submit button in light blue" width=130>
 
 ### Future Left to Implement
 * The drop-down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop-down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop-down menu disappears once the user selects one of the sections, or taps outside of the drop-down menu, it would help to improve the user experience. This is something that can be implemented once I learn JavaScript.   
