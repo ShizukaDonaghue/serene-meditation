@@ -166,9 +166,11 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 * [Grammarly](https://app.grammarly.com/) was used to fix grammatical errors across the project.
 
 ## Testing
-The website was tested on the following browsers with success:<br>
-    Google Chrome, Safari, Microsoft Edge, Mozilla Firefox, and Opera.
-    
+The website was tested on the following browsers for appearance, functionality and responsiveness:<br>
+    Google Chrome, Safari, Microsoft Edge, Mozilla Firefox, and Opera<br>
+
+Please see below "Resolved Bugs" and "Unresolved Bug" sections for details.
+
 
 
 ### User Stories
