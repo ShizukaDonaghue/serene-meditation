@@ -181,7 +181,7 @@ The "Submit" and "Home" buttons should appear the same for consistency, however,
 
 Image showing the "Submit" button in Safari:
 
-<img src="docs/images/submit-button-in-safari.jpg" alt="Image showing the submit button in Safari" width=135>
+<img src="docs/images/submit-button-in-safari.jpg" alt="Image showing the submit button in Safari" width=140>
 
 ## Deployment
 The website has been deployed to GitHub pages.

@@ -34,6 +34,8 @@ body {
     font-weight: 400;
     background: var(--pale-pink);
     color: var(--dark-grey);
+    display: grid;
+    grid-template-columns: auto 0px;
 }
 
 /* styling for header with fixed navigation bar */
@@ -338,6 +340,23 @@ form p {
 
 #home-button:hover {
     color: var(--pale-blue)
+}
+
+/* styling for back to top button */
+#back-to-top {
+    --offset: 100px;
+
+    position: sticky;
+    place-self: end;
+    bottom: 30px;
+    right: 30px;
+    margin-top: calc(100vh + var(--offset));
+    font-size: 180%;
+    
+    padding: 9px 13px 1.8px 12.7px;
+    color: #fff;
+    background: var(--dark-blue);
+    border-radius: 50%;
 }
 
 /* media query for screen sizes < 376px to prevent logo from overlapping with responsive (hamburger) 
@@ -676,5 +695,6 @@ form p {
         font-size: 140%;
     }
 }
+
 
 
