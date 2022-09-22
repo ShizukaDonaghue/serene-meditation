@@ -60,9 +60,9 @@ The images are carefully chosen to set the calm and peaceful tone for the websit
 Detailed alt attribute is included for each image to describe the scenery. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
 
 ### Colour Scheme
-The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and the surrounding sky pink. The colours chosen are gentle and calming to suite the purpose of the website and to promote a sense of peace and calm in the user.
+The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and the surrounding sky pink. The colours chosen are gentle and calming to suit the purpose of the website and to promote a sense of peace and calm in the user.
 
-The background colour for the website is pale pink F3E4E4 as soft pink colours are known to promote tranquility and peace, and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
+The background colour for the website is pale pink F3E4E4 as soft pink colours are known to promote tranquillity and peace, and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
 
 Colour palette generated using [Coolors.co](https://coolors.co/):
 
@@ -80,7 +80,7 @@ Navigation bar for screen sizes <905px:
 
 <img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width=300>
 
-When hovering over the hamburger menu with the cursor, the cursor changes to the hand pointer to indidate that is a button. When the hamburger menu is clicked or tapped, the drop-down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop-down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they are able to see that the desired section is now at the top of the screen. Furthermore, when the drop-down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the drop-down menu is closed.
+When hovering over the hamburger menu with the cursor, the cursor changes to the hand pointer to indicate that is a button. When the hamburger menu is clicked or tapped, the drop-down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop-down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they are able to see that the desired section is now at the top of the screen. Furthermore, when the drop-down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the drop-down menu is closed.
 
 <img src="docs/images/hand-pointer.png" alt="Image showing the hand pointer" width=40>
 
@@ -93,7 +93,7 @@ Navigation bar for screen sizes >=905px: <br>
 When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
 
 #### Back to Top Button
-Since the main contents are on a sigle page, the website includes a "Back to Top" button which appears at the bottom right-hand corner when the user starts scrolling down. This aims to produce a better user experience as it enables the user to quickly go back to the top of the main page without moving their cursor or hand to the top of the screen for the navigation bar. The background colour of the button is semi-transparent to minimise the interference with the contents on smaller screen sizes.
+Since the main contents are on a single page, the website includes a "Back to Top" button which appears at the bottom right-hand corner when the user starts scrolling down. This aims to produce a better user experience as it enables the user to quickly go back to the top of the main page without moving their cursor or hand to the top of the screen for the navigation bar. The background colour of the button is semi-transparent to minimise interference with the contents on smaller screen sizes.
 
 <img src="docs/images/back-to-top.png" alt="Image showing the back to top button with semi-transparent background" width=80>
 
@@ -182,7 +182,7 @@ Image showing scroll-padding applied correctly after the fix:
 <img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width=300/>
 
 #### Unresolved
-The "Submit" and "Home" buttons should appear the same for consistency, however, in Safari for Apple Devices, the shape of the "Submit" buttons appears differently (it appers that the border radious is higher). This issue is not seen in the Dev Tools or desktop applications. Despite the efforts made to modify the CSS codes so that the codes would be rendered the same in Safari, this issue was not resolved. Please note that this does not affect the functionality.
+The "Submit" and "Home" buttons should appear the same for consistency, however, in Safari for Apple Devices, the shape of the "Submit" buttons appears differently (it appears that the border-radius is higher). This issue is not seen in the Dev Tools or desktop applications. Despite the efforts made to modify the CSS codes so that the codes would be rendered the same in Safari, this issue was not resolved. Please note that this does not affect the functionality.
 
 Image showing the "Submit" button in Safari:
 
@@ -200,7 +200,7 @@ The live link can be found here - [Serene Meditation](https://shizukadonaghue.gi
 </details>
 
 1. Navigate to the "Setting" tab in the GitHub repository.
-2. Select the "Pages" from the menu on the left.
+2. Select "Pages" from the menu on the left.
 3. Under the "Source" section, select "Deploy from a branch" and "Branch: main." Click on "Save."
 4. GitHub takes a short while to publish the website. Refresh the page, if not done automatically, and once the website is deployed, the URL will be displayed.  
 
@@ -229,8 +229,6 @@ To make a copy or "fork" the original repository to view or make changes without
 5. Type "git clone" and then paste the URL copied from GitHub.
 6. Press "Enter" and the local clone will be created.
 
-
-
 ## Credits
 ### Contents
 * Contents for the "What is Meditation?" section were sourced from [verywellmind](https://www.verywellmind.com/what-is-meditation-2795927).
@@ -244,7 +242,7 @@ To make a copy or "fork" the original repository to view or make changes without
 * Images used were sourced from [pxhere.com](https://pxhere.com/) and [pixabay.com](https://pixabay.com/).
 ### Codes
 * The responsive navigation bar was inspired by YouTube tutorial by [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA).
-* The "back to top" button was insipired by [FreeCodeCamp](https://www.freecodecamp.org/news/css-only-back-to-top-button/).
+* The "back to top" button was inspired by [FreeCodeCamp](https://www.freecodecamp.org/news/css-only-back-to-top-button/).
 
 ## Acknowledgements
 This website was created as a portfolio 1 project for the Full Stack Software Development course at [UCD Professional Academy](https://codeinstitute.net/ie/) and [Code Institute](https://codeinstitute.net/ie/). I would like to thank my mentor, [Harry Dhillon](https://github.com/Harry-Leepz), for the guidance and encouragement given throughout the project. Following his valuable feedback and advice, the website has been refined to be more intuitive and it has improved the overall user experience. 
