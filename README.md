@@ -164,7 +164,7 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 
 ### Bugs 
 #### Resolved
-Scroll-padding-top property is applied to the website so that when the link to each section is selected from the navigation bar, the desired section moves to the top of the screen below the fixed navigation bar (not hidden under the navigation bar), however, in Safari for Apple Devices, the padding was applied larger than the rem unit set and the section above was visible. The issue was not seen in the developer tools during the design phase. 
+Scroll-padding-top property is applied to the website so that when the link to each section is selected from the navigation bar, the desired section moves to the top of the screen below the fixed navigation bar (not hidden under the navigation bar), however, in Safari for Apple devices, the padding was applied larger than the rem unit set and the section above was visible. The issue was not seen in Chrome Dev Tools during the building process. 
 
 The issue was resolved by changing the scroll-padding-top property from rem to px.
 
