@@ -60,7 +60,7 @@ The images are carefully chosen to set the calm and peaceful tone for the websit
 Detailed alt attribute is included for each image to describe the scenery. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
 
 ### Colour Scheme
-The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and the surrounding sky pink. The colours chosen are gentle and calming to suite the purpose of the website and to enhance the user experience. 
+The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and the surrounding sky pink. The colours chosen are gentle and calming to suite the purpose of the website and to promote a sense of peace and calm in the user.
 
 The background colour for the website is pale pink F3E4E4 as soft pink colours are known to promote tranquility and peace, and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
 
