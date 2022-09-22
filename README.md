@@ -168,21 +168,21 @@ The website was validated using the official [W3C HTML Validator](https://valida
 
 Validation result for index.html:<br>
 
-<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=500>
+<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=700>
 
 Validation result for thank-you.html:
 
-<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=500>
+<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=700>
 
 Validation result for style.css:
 
-<img src="docs/images/css-validator.png" alt="Image showing HTML validator result" width=500>
+<img src="docs/images/css-validator.png" alt="Image showing HTML validator result" width=700>
 
 ### Lighthouse 
 The website was tested with Lighthouse in the Dev Tools. The results were all green.
 
 Results for index.html (same scores for both mobile and desktop):<br>
-<img src="docs/images/lighthouse-scores.png" alt="Image showing Lighthouse results for index.html" width=300>
+<img src="docs/images/lighthouse-scores.png" alt="Image showing Lighthouse results for index.html" width=400>
 
 Results for thank-you.html:
 
