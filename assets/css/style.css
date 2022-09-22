@@ -58,7 +58,7 @@ header a {
 }
 
 nav {
-    background-color: rgba(5, 29, 54, 0.7);
+    background-color: rgba(9, 32, 57, 0.7);
     position: absolute;
     text-align: right;
     top: 100%;
@@ -345,18 +345,16 @@ form p {
 /* styling for back to top button */
 #back-to-top {
     --offset: 100px;
-
     position: sticky;
     place-self: end;
     bottom: 30px;
     right: 30px;
-    margin-top: calc(100vh + var(--offset));
     font-size: 180%;
-    
-    padding: 9px 13px 1.8px 12.7px;
     color: #fff;
-    background: var(--dark-blue);
+    background: rgba(9, 32, 57, 0.7);
     border-radius: 50%;
+    padding: 9px 13px 1.8px 12.7px;
+    margin-top: calc(100vh + var(--offset));
 }
 
 /* media query for screen sizes < 376px to prevent logo from overlapping with responsive (hamburger) 

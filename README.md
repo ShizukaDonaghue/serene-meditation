@@ -92,6 +92,11 @@ Navigation bar for screen sizes >=905px: <br>
 
 When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
 
+#### Back to Top Button
+Since the main contents are on a sigle page, the website includes a "Back to Top" button which appears at the bottom right-hand corner when the user starts scrolling down. This aims to produce a better user experience as it enables the user to quickly go back to the top of the main page without moving their cursor or hand to the top of the screen for the navigation bar. The background colour of the button is semi-transparent to minimise the interference with the contents on smaller screen sizes.
+
+<img src="docs/images/back-to-top-button.png" alt="Image showing the back to top button with semi-transparent background" width=60>
+
 #### The Landing Page Image <br> 
 The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start their meditation practice. The image includes detailed alt attribute to describe the scenery, which aims to deliver the same effect to all users.
 
