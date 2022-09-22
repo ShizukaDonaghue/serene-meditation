@@ -168,11 +168,11 @@ The website was validated using the official [W3C HTML Validator](https://valida
 
 Validation result for index.html:<br>
 
-<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=700>
+<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=500>
 
 Validation result for thank-you.html:
 
-<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=700>
+<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=500>
 
 Validation result for style.css:
 
@@ -266,7 +266,7 @@ The "Submit" and "Home" buttons should appear the same for consistency, however,
 
 Image showing the "Submit" button in Safari:
 
-<img src="docs/images/submit-button-in-safari.jpg" alt="Image showing the submit button in Safari" width=132>
+<img src="docs/images/submit-button-in-safari.jpg" alt="Image showing the submit button in Safari" width=140>
 
 ## Deployment
 The website has been deployed to GitHub pages.
