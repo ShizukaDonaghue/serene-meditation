@@ -166,12 +166,40 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 * [Grammarly](https://app.grammarly.com/) was used to fix grammatical errors across the project.
 
 ## Testing
-The website was tested on the following browsers for appearance, functionality and responsiveness:<br>
+### Code Validation
+The website was validated using [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and no errors were found.<br>
+
+Validation result for index.html:<br>
+
+<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=500>
+
+Validation result for thank-you.html:
+
+<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=500>
+
+Validation result for style.css:
+
+<img src="docs/images/css-validator.png" alt="Image showing HTML validator result" width=500>
+
+### Lighthouse 
+The website was tested with Lighthouse in the Dev Tools.
+
+Results for index.html (same scores for both mobile and desktop):<br>
+<img src="docs/images/lighthouse-scores.png" alt="Image showing Lighthouse results for index.html" width=300>
+
+Results for thank-you.html:
+
+
+### Brower Compatibility
+Appearance, functionality and responsiveness of the website was tested on the following browsers with success:<br>
     Google Chrome, Safari, Microsoft Edge, Mozilla Firefox, and Opera<br>
 
-Please see below "Resolved Bugs" and "Unresolved Bug" sections for details.
-
-
+### Responsiveness
+Responsiveness design test were carried out using [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and no issues were found. This included:
+* iPhone 4, SE, XR, 12 Pro, 5/SE, 6/7/8, 6/7/8 Plus and X
+* iPad Air and iPad Mini
+* Samsung Galaxy S8+, S20 Ultra, A51/71
+* Nest Hub and Hub Max
 
 ### User Stories
 
@@ -205,7 +233,7 @@ Image showing the "Submit" button after the fix in Firefox:
 
 ### Unresolved Bug
 #### Safari
-The "Submit" and "Home" buttons should appear the same for consistency, however, in Safari for Apple Devices, the shape of the "Submit" buttons appears differently (it appears that the border-radius is higher). This issue is not seen in the Dev Tools or desktop applications. Despite the efforts made to modify the CSS codes so that the codes would be rendered the same in Safari, this issue was not resolved. Please note that this does not affect the functionality.
+The "Submit" and "Home" buttons should appear the same for consistency, however, in Safari for Apple Devices, the shape of the "Submit" buttons appears differently (it appears that the border-radius is higher). This issue is not seen in the Dev Tools or desktop applications. Despite the efforts made to modify the CSS codes so that the codes would be rendered the same in Safari, this issue was not resolved. This is a minor apperace issue and does not affect the functionality.
 
 Image showing the "Submit" button in Safari:
 
