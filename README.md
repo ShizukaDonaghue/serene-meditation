@@ -166,9 +166,16 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 * [Grammarly](https://app.grammarly.com/) was used to fix grammatical errors across the project.
 
 ## Testing
+The website was tested on the following browsers with success:<br>
+    Google Chrome, Safari, Microsoft Edge, Mozilla Firefox, and Opera.
+    
 
-### Bugs 
-#### Resolved
+
+### User Stories
+
+
+### Resolved Bugs 
+#### Safari
 Scroll-padding-top property is applied to the website so that when the link to each section is selected from the navigation bar, the desired section moves to the top of the screen below the fixed navigation bar (not hidden under the navigation bar), however, in Safari for Apple devices, the padding was applied larger than the rem unit set and the section above was visible. The issue was not seen in Chrome Dev Tools during the building process. 
 
 The issue was resolved by changing the scroll-padding-top property from rem to px.
@@ -181,12 +188,25 @@ Image showing scroll-padding applied correctly after the fix:
 
 <img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width=300/>
 
-#### Unresolved
+#### Firefox
+The "Submit" button rendered as "Submit Query" in Firefox.
+
+Image showing the "Submit" button in Firefox:
+
+<img src="docs/images/submit-button-firefox.png" alt="Image showing the submit button in Firefox" width=130>
+
+This has been resolved by adding value="Submit" to the input element.
+
+
+
+
+### Unresolved Bug
+#### Safari
 The "Submit" and "Home" buttons should appear the same for consistency, however, in Safari for Apple Devices, the shape of the "Submit" buttons appears differently (it appears that the border-radius is higher). This issue is not seen in the Dev Tools or desktop applications. Despite the efforts made to modify the CSS codes so that the codes would be rendered the same in Safari, this issue was not resolved. Please note that this does not affect the functionality.
 
 Image showing the "Submit" button in Safari:
 
-<img src="docs/images/submit-button-in-safari.jpg" alt="Image showing the submit button in Safari" width=140>
+<img src="docs/images/submit-button-in-safari.jpg" alt="Image showing the submit button in Safari" width=132>
 
 ## Deployment
 The website has been deployed to GitHub pages.
