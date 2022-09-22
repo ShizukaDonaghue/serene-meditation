@@ -170,13 +170,18 @@ The issue was resolved by changing the scroll-padding-top property from rem to p
 
 Image showing scroll-padding not applied correctly before the issue was resolved:
 
-<img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width="300"/>
+<img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width=300/>
 
 Image showing scroll-padding applied correctly after the fix:
 
-<img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width="300"/>
+<img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width=300/>
 
 #### Unresolved
+The "Submit" and "Home" buttons should appear the same for consistency, however, in Safari for Apple Devices, the shape of the "Submit" buttons appears differently (it appers that the border radious is higher). This issue is not seen in the Dev Tools or desktop applications. Despite the efforts made to modify the CSS codes so that the codes would be rendered the same in Safari, this issue was not resolved. Please note that this does not affect the functionality.
+
+Image showing the "Submit" button in Safari:
+
+<img src="docs/images/submit-button-in-safari.jpg" alt="Image showing the submit button in Safari" width=135>
 
 ## Deployment
 The website has been deployed using GitHub.
