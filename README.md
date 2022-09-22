@@ -184,32 +184,47 @@ Image showing the "Submit" button in Safari:
 <img src="docs/images/submit-button-in-safari.jpg" alt="Image showing the submit button in Safari" width=135>
 
 ## Deployment
-The website has been deployed using GitHub.
+The website has been deployed to GitHub pages.
+The live link can be found here - [Serene Meditation](https://shizukadonaghue.github.io/serene-meditation/)
 
-### Deploying a GitHub Repository via GitHub pages
+### Deploying a GitHub Repository to GitHub Pages 
+<details>
+    <summary>Image for the following steps</summary>
+
+<img src="docs/images/deploy-to-github-image.png" width=700>
+</details>
+
 1. Navigate to the "Setting" tab in the GitHub repository.
-2. Select "Pages" from the menu on the left.
-3. Under "Sources," select "Deploy from a branch" and "Branch: main." Click on "Save." 
-4. GitHub takes a short while to publish the website. Refresh the page and once the website is deployed, the URL will be displayed. 
-
-    <img src="docs/images/deploy-to-github-image.png" width=700>
+2. Select the "Pages" from the menu on the left.
+3. Under the "Source" section, select "Deploy from a branch" and "Branch: main." Click on "Save."
+4. GitHub takes a short while to publish the website. Refresh the page, if not done automatically, and once the website is deployed, the URL will be displayed.  
 
 ### Forking the GitHub Repository
+<details>
+    <summary>Image for the following steps</summary>
+
+<img src="docs/images/fork-github-repository.png" width=700>
+</details>
+
 To make a copy or "fork" the original repository to view or make changes without affecting the original repository, 
 1. Log into GitHub and locate the repository.
 2. Select the "Fork" option at the top of the screen to create a copy of the repository.
 3. This will create a copy of the repository in your GitHub account.
 
-    <img src="docs/images/fork-github-repository.png" width=700>
-
 ### Creating a Local Clone
+<details>
+    <summary>Image for the following steps</summary>
+
+<img src="docs/images/create-github-local-clone.png" width=700>
+</details>
+
 1. In the GitHub repository, select the "Code" button.
 2. In the "Clone" box, under the "HTTPS" tab, click on the clipboard icon to copy the URL.
 3. In Gitpod, change the current working directory to the location you would like the cloned directory to be created.
 5. Type "git clone" and then paste the URL copied from GitHub.
 6. Press "Enter" and the local clone will be created.
 
-    <img src="docs/images/create-github-local-clone.png" width=700>
+
 
 ## Credits
 ### Contents
