@@ -20,6 +20,7 @@ https://github.com/ShizukaDonaghue/serene-meditation
 ### User Stories
 As a user, 
 * I would like the website to be visually appealing and gives me a sense of peace and calm.
+* I would like to be able to navigate easily through the website.
 * I would like to understand what meditation is and its benefits.
 * I would like to be able to learn meditation techniques and how to get started.
 * I would like to be inspired to start meditation.
@@ -167,7 +168,7 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 
 ## Testing
 ### Code Validation
-The website was validated using [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and no errors were found.<br>
+The website was validated using the official [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and no errors were found.<br>
 
 Validation result for index.html:<br>
 
@@ -182,27 +183,59 @@ Validation result for style.css:
 <img src="docs/images/css-validator.png" alt="Image showing HTML validator result" width=500>
 
 ### Lighthouse 
-The website was tested with Lighthouse in the Dev Tools.
+The website was tested with Lighthouse in the Dev Tools. The results were all green.
 
 Results for index.html (same scores for both mobile and desktop):<br>
 <img src="docs/images/lighthouse-scores.png" alt="Image showing Lighthouse results for index.html" width=300>
 
 Results for thank-you.html:
 
+PLACEHOLDER FOR IMAGE***********
 
 ### Brower Compatibility
-Appearance, functionality and responsiveness of the website was tested on the following browsers with success:<br>
-    Google Chrome, Safari, Microsoft Edge, Mozilla Firefox, and Opera<br>
+Appearance, functionality and responsiveness of the website was tested with the following browsers and no issues were found:<br>
+* Google Chrome
+* Safari
+* Microsoft Edge
+* Mozilla Firefox
+* Opera
 
 ### Responsiveness
-Responsiveness design test were carried out using [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and no issues were found. This included:
+Responsiveness design tests were executed using [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and no issues were found. This included the following devices:
 * iPhone 4, SE, XR, 12 Pro, 5/SE, 6/7/8, 6/7/8 Plus and X
 * iPad Air and iPad Mini
 * Samsung Galaxy S8+, S20 Ultra, A51/71
+* Microsoft Surface Pro 7 and Duo
 * Nest Hub and Hub Max
 
 ### User Stories
+All user stories have been tested and addressed as follows:
 
+* *I would like the website to be visually appealing and gives me a sense of peace and calm.*<br>
+    
+    The website is clean and uncluttered. The colours chosen for the website are gentle and calming.  The background colour is pale pink as soft pink colours are known to promote tranquillity and peace. The images are also chosen to suit the colour scheme and the purpose of the website.
+
+* *I would like to be able to navigate easily through the website.*
+
+    The layout of the website is simple and consistent full page scroll with a fixed navigation bar at the top. The user can easily navigate to a specific section of the website from the navigation bar. When the user starts scrolling, the "Back to Top" button appears at the bottom right-hand corner and the user can quickly go back to the top of the main page. 
+    
+    When the user submits a message, the second page opens to thank them for their message. The same navigation bar is available on the second page and this page also includes the "Home" button so that the user can easily go back to the main page after submitting a message.  
+
+* *I would like to understand what meditation is and its benefits.*<br>
+
+    The website contains a section which describes what medidation is and its main benefits at the start of the page. 
+
+* *I would like to be able to learn meditation techniques and how to get started.*<br>
+
+    The website contains a section which details meditation techniques and how to practise them.
+
+* *I would like to be inspired to start meditation.*<br>
+
+    The website contains images of sunrise and inspirational quotes to inspire the user to start their meditation practice. The images of sunrise aim to signify the start of their meditation journey.
+
+* *I would like to be able to ask questions or provide feedback.*<br>
+
+    The website contains a form so that the user can send a message to ask questions or provide feedback. 
 
 ### Resolved Bugs 
 #### Safari
