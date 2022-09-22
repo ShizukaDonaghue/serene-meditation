@@ -351,7 +351,7 @@ form p {
     right: 30px;
     font-size: 180%;
     color: #fff;
-    background: rgba(9, 32, 57, 0.8);
+    background: rgba(9, 32, 57, 0.7);
     border-radius: 50%;
     padding: 9px 13px 1.8px 12.7px;
     margin-top: calc(100vh + var(--offset));
