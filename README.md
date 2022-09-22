@@ -44,7 +44,7 @@ Wireframes for desktop:<br>
 <img src="docs/images/wireframe-for-desktop.png" alt="Image showing the wireframe for tablets" width=350>
 
 ### Website Structure
-Serene Meditation consists of two HTML pages. The layout of the website is simple and consistent full page scroll with a fixed navigation bar at the top. The intention for this simple design is to have a clean and uncluttered website in which the user can feel calm and relaxed. 
+Serene Meditation consists of two HTML pages. The layout of the website is simple and consistent full page scroll with a fixed navigation bar at the top. The intention for this simple design is to have a clean and uncluttered website in which the user can feel calm and peaceful. 
 
 The main page is the default landing page and the second page is accessible when the user submits a message from the main page to thank them for their message. There are five sections within the main page and they are also accessible from the navigation bar to bring the user to a specific section of the page. 
 
@@ -60,9 +60,9 @@ The images are carefully chosen to set the calm and peaceful tone for the websit
 Detailed alt attribute is included for each image to describe the scenery. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
 
 ### Colour Scheme
-The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and the surrounding sky pink. The colours chosen are calming and relaxing to enhance the user experience. 
+The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and the surrounding sky pink. The colours chosen are gentle and calming to suite the purpose of the website and to enhance the user experience. 
 
-The background colour for the website is pale pink F3E4E4 and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
+The background colour for the website is pale pink F3E4E4 as soft pink colours are known to promote tranquility and peace, and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
 
 Colour palette generated using [Coolors.co](https://coolors.co/):
 
