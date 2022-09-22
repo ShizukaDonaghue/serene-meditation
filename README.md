@@ -193,7 +193,7 @@ Results for thank-you.html:
 PLACEHOLDER FOR IMAGE***********
 
 ### Brower Compatibility
-Appearance, functionality and responsiveness of the website was tested with the following browsers and no issues were found:<br>
+Appearance, functionality and responsiveness of the website were tested with the following browsers and no issues were found:<br>
 * Google Chrome
 * Safari
 * Microsoft Edge
@@ -223,7 +223,7 @@ All user stories have been tested and addressed as follows:
 
 * *I would like to understand what meditation is and its benefits.*<br>
 
-    The website contains a section which describes what medidation is and its main benefits at the start of the page. 
+    The website contains a section which describes what meditation is and its main benefits at the start of the page. 
 
 * *I would like to be able to learn meditation techniques and how to get started.*<br>
 
@@ -252,7 +252,7 @@ Image showing scroll-padding applied correctly after the fix:
 <img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width=300/>
 
 #### Firefox
-The "Submit" button rendered as "Submit Query" in Firefox.
+The "Submit" button was rendered as "Submit Query" in Firefox.
 
 Image showing the "Submit" button in Firefox:
 
@@ -266,7 +266,7 @@ Image showing the "Submit" button after the fix in Firefox:
 
 ### Unresolved Bug
 #### Safari
-The "Submit" and "Home" buttons should appear the same for consistency, however, in Safari for Apple Devices, the shape of the "Submit" buttons appears differently (it appears that the border-radius is higher). This issue is not seen in the Dev Tools or desktop applications. Despite the efforts made to modify the CSS codes so that the codes would be rendered the same in Safari, this issue was not resolved. This is a minor apperace issue and does not affect the functionality.
+The "Submit" and "Home" buttons should appear the same for consistency, however, in Safari for Apple Devices, the shape of the "Submit" buttons appears differently (it appears that the border-radius is higher). This issue is not seen in the Dev Tools or desktop applications. Despite the efforts made to modify the CSS codes so that the codes would be rendered the same in Safari, this issue was not resolved. This is a minor appearance issue and does not affect the functionality.
 
 Image showing the "Submit" button in Safari:
 
