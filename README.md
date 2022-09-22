@@ -197,8 +197,9 @@ Image showing the "Submit" button in Firefox:
 
 This has been resolved by adding value="Submit" to the input element.
 
+Image showing the "Submit" button after the fix in Firefox:
 
-
+<img src="docs/images/submit-button-firefox-after-fix.png" alt="Image showing the submit button in Firefox" width=130>
 
 ### Unresolved Bug
 #### Safari
