@@ -26,7 +26,7 @@ As a user,
 * I would like to be able to ask questions or provide feedback.
 
 ### Initial Concept
-The initial concept was to create a website that would inspire users to start their meditation practice and help them get started. Therefore, the website would explain what benefits they could expect and what types of techniques were available, so that users could try different techniques to start their journey. 
+The initial concept was to create a website that would inspire users to start their meditation practice and help them get started. Therefore, the website would explain what benefits they could expect and what types of techniques were available, so that users could try different meditation techniques to start their journey. 
 
 ### Wireframes
 Wireframes were generated using [Balsamiq](https://balsamiq.com/) to visualise the structure of the website. The structure of the finished website slightly varies from the wireframes due to development that occurred during the building process, however, the main structure remained the same.
@@ -62,11 +62,11 @@ Detailed alt attribute is included for each image to describe the scenery. The i
 ### Colour Scheme
 The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and the surrounding sky pink. The colours chosen are gentle and calming to suit the purpose of the website and to promote a sense of peace and calm in the user.
 
-The background colour for the website is pale pink F3E4E4 as soft pink colours are known to promote tranquillity and peace, and the font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
+The background colour for the website is pale pink F3E4E4 as soft pink colours are known to promote tranquillity and peace. The font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
 
 Colour palette generated using [Coolors.co](https://coolors.co/):
 
-<img src="docs/images/colour-palette.jpg" alt="Image showing the colours used for the website" width=700>
+<img src="docs/images/colour-palette.jpg" alt="Image showing the colours used for the website" width=600>
 
 ### Typography
 There are two fonts used in the website and they are imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
@@ -74,7 +74,7 @@ There are two fonts used in the website and they are imported from [Google Fonts
 ## Features
 ### Existing Features
 #### Navigation Bar
-Featured on both HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page, rather than reloading the page for a better user experience, and a link to each section within the main page. This will allow the user to easily navigate to their desired section without having to use the "back" button each time.
+Featured on both HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page (rather than reloading the page for a better user experience) and a link to each section within the main page. This allows the user to easily navigate to their desired section without having to use the "back" button each time.
 
 Navigation bar for screen sizes <905px:
 
@@ -109,7 +109,7 @@ This section provides an overview of meditation, explaining what meditation is.
 This section summarises the main benefits the user could expect from meditation practice.
 
 #### Techniques <br>
-This section contains the details of five techniques available, including how to practise them. In addition, there are three images of sunrise and inspirational quotes to inspire the user, which aims to generate a positive emotional response and get started. These images also include detailed alt attribute to describe the scenery and intend to deliver the same effect for all users.
+This section contains the details of five techniques available, including how to practise them. In addition, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate a positive emotional response in the user and to help them get started. These images also include detailed alt attribute to describe the scenery and intend to deliver the same effect for all users.
 
 <img src="docs/images/mindfulness-meditation-image.png" alt="Image showing the image for mindfulness meditation and inspirational quote" width=500>
 
@@ -133,11 +133,11 @@ The footer section includes links to the social media sites as well as my own Gi
 <img src="docs/images/footer-image.png" alt="Image showing the footer" width=300>
 
 #### Thank You Page <br>
-When the user sends a message from the main page, the second HTML page opens to thank them for their message. The navigation bar is consistent with the main page and this includes a "Home" button so that the user can easily navigate back to the main page.
+When the user sends a message from the main page, the second HTML page opens to thank them for their message. The navigation bar is consistent with the main page and this page includes a "Home" button so that the user can easily navigate back to the main page.
 
 <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=400>
 
-When hovering over the "Home" button with the cursor, the cursor changes to the hand pointer and the colour of "Home" changes from white to light blue, so that is more intuitive for the user to know that is a button, and also to be consistent with the "Submit" button.
+When hovering over the "Home" button with the cursor, the cursor changes to the hand pointer and the colour of "Home" changes from white to light blue, so that is more intuitive for the user to know that is a button, and also to be consistent with the "Submit" button on the main page.
 
 <img src="docs/images/hand-pointer.png" alt="Image showing the hand pointer" width=40>
 
@@ -146,7 +146,7 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 ### Features Left to Implement
 * The drop-down menu from the hamburger menu currently stays open after the user selects one of the sections and navigates to the desired section. The drop-down menu is only closed by clicking or tapping on the "X" at the top. If the drop-down menu disappears once the user selects one of the sections or taps outside of the drop-down menu, it would help to improve the user experience. This is something that can be implemented once I learn JavaScript.   
 
-* The navigation bar currently does not have a drop-down menu for the "Techniques" section, which will enable the user to navigate to a specific technique from the "Techniques" section of the navigation bar. This would be a nice addition to the website that can be implemented once I gain more experience in coding to do so.
+* The navigation bar currently does not have a drop-down menu for the "Techniques" section, which would enable the user to navigate to a specific technique from the "Techniques" section of the navigation bar. This would be a nice addition to the website that can be implemented once I gain more experience in coding to do so.
 
 ## Technologies Used
 * The website was created with [HTML](https://html.spec.whatwg.org/).
