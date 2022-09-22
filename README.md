@@ -80,7 +80,9 @@ Navigation bar for screen sizes <905px:
 
 <img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width=300>
 
-When the hamburger menu is clicked or tapped, the drop-down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop-down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they are able to see that the desired section is now at the top of the screen. Furthermore, when the drop-down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the drop-down menu is closed.
+When hovering over the hamburger menu with the cursor, the cursor changes to the hand pointer to indidate that is a button. When the hamburger menu is clicked or tapped, the drop-down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop-down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they are able to see that the desired section is now at the top of the screen. Furthermore, when the drop-down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the drop-down menu is closed.
+
+<img src="docs/images/hand-pointer.png" alt="Image showing the hand pointer" width=40>
 
 <img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width=300>
     
@@ -116,6 +118,8 @@ This section contains a form that allows the user to send a message to ask quest
 
 When hovering over the "Submit" button with the cursor, the cursor changes to the hand pointer and the colour of "Submit" also changes from white to light blue, so that is more intuitive for the user to know that is a button. 
 
+<img src="docs/images/hand-pointer.png" alt="Image showing the hand pointer" width=40>
+
 <img src="docs/images/submit-button.png" alt="Image showing the submit button in light blue" width =130>
 
 #### Footer <br>
@@ -129,6 +133,8 @@ When the user sends a message from the main page, the second HTML page opens to 
 <img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=400>
 
 When hovering over the "Home" button with the cursor, the cursor changes to the hand pointer and the colour of "Home" changes from white to light blue, so that is more intuitive for the user to know that is a button, and also to be consistent with the "Submit" button.
+
+<img src="docs/images/hand-pointer.png" alt="Image showing the hand pointer" width=40>
 
 <img src="docs/images/home-button.png" alt="Image showing the submit button in light blue" width=130>
 
