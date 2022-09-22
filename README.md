@@ -12,10 +12,6 @@ The users of this website will become familiar with what meditation is, the bene
 ## Repository
 https://github.com/ShizukaDonaghue/serene-meditation
 
-
-## Table of Contents
-
-
 ## UX: User Experience
 ### User Stories
 As a user, 
