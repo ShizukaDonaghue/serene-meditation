@@ -242,7 +242,7 @@ To make a copy or "fork" the original repository to view or make changes without
 * Images used were sourced from [pxhere.com](https://pxhere.com/) and [pixabay.com](https://pixabay.com/).
 ### Codes
 * The responsive navigation bar was inspired by YouTube tutorial by [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA).
-* The "back to top" button was inspired by [FreeCodeCamp](https://www.freecodecamp.org/news/css-only-back-to-top-button/).
+* The "Back to Top" button was inspired by [FreeCodeCamp](https://www.freecodecamp.org/news/css-only-back-to-top-button/).
 
 ## Acknowledgements
 This website was created as a portfolio 1 project for the Full Stack Software Development course at [UCD Professional Academy](https://codeinstitute.net/ie/) and [Code Institute](https://codeinstitute.net/ie/). I would like to thank my mentor, [Harry Dhillon](https://github.com/Harry-Leepz), for the guidance and encouragement given throughout the project. Following his valuable feedback and advice, the website has been refined to be more intuitive and it has improved the overall user experience. 
