@@ -138,8 +138,8 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 
 <img src="docs/images/home-button.png" alt="Image showing the submit button in light blue" width=130>
 
-### Future Left to Implement
-* The drop-down menu from the navigation bar for smaller screen sizes currently stays open after the user selects one of the sections and navigates to the desired section. The drop-down menu is only closed by clicking or tapping on the "X" in the navigation bar. If the drop-down menu disappears once the user selects one of the sections or taps outside of the drop-down menu, it would help to improve the user experience. This is something that can be implemented once I learn JavaScript.   
+### Features Left to Implement
+* The drop-down menu from the hamburger menu currently stays open after the user selects one of the sections and navigates to the desired section. The drop-down menu is only closed by clicking or tapping on the "X" at the top. If the drop-down menu disappears once the user selects one of the sections or taps outside of the drop-down menu, it would help to improve the user experience. This is something that can be implemented once I learn JavaScript.   
 
 * The navigation bar currently does not have a drop-down menu for the "Techniques" section, which will enable the user to navigate to a specific technique from the "Techniques" section of the navigation bar. This would be a nice addition to the website that can be implemented once I gain more experience in coding to do so.
 
