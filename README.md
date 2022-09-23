@@ -242,7 +242,7 @@ All user stories have been tested and addressed as follows:
 
 * *I would like to be able to learn meditation techniques and how to get started.*<br>
 
-    The website contains a section which details meditation techniques and how to practise them.
+    The website contains a section which details meditation techniques and how to practise them. Additionally, it also contains useful tips and tricks to help the user get started.
 
 * *I would like to be inspired to start meditation.*<br>
 
