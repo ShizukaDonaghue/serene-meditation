@@ -164,7 +164,7 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 
 ## Testing
 ### Code Validation
-The website was validated using the official [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and no errors were found.<br>
+The website was fully validated to ensure there were no syntax errors. The official [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used for the validation and no errors were found.<br>
 
 Validation result for index.html:<br>
 
@@ -179,22 +179,39 @@ Validation result for style.css:
 <img src="docs/images/css-validator.png" alt="Image showing HTML validator result" width=700>
 
 ### Lighthouse 
-The website was tested with Lighthouse in the Dev Tools. The results were all green.
+The website was tested with Lighthouse in the Dev Tools for performance, accessibility, best practices, and SEO.
 
-Results for index.html (same scores for both mobile and desktop):<br>
-<img src="docs/images/lighthouse-scores.png" alt="Image showing Lighthouse results for index.html" width=400>
+Results for index.html for desktop: <br>
 
-Results for thank-you.html:
+<img src="docs/images/lighthouse-desktop.png" alt="Image showing Lighthouse results for index.html for desktop" width=400>
 
-PLACEHOLDER FOR IMAGE***********
+Results for index.html for mobile: <br>
+
+<img src="docs/images/lighthouse-mobile.png" alt="Image showing Lighthouse results for index.html for mobile" width=400>
+
+Results for thank-you.html for desktop: <br>
+
+<img src="docs/images/lighthouse-desktop-thank-you.png" alt="Image showing Lighthouse results for thank-you.html for desktop" width=400>
+
+Results for thank-you.html for mobile: <br>
+
+<img src="docs/images/lighthouse-mobile-thank-you.png" alt="Image showing Lighthouse results for thank-you.html for mobile" width=400>
 
 ### Brower Compatibility
-Appearance, functionality and responsiveness of the website were tested with the following browsers and no issues were found:<br>
+Appearance, functionality and responsiveness of the website were tested with the following browsers:<br>
 * Google Chrome
 * Safari
 * Microsoft Edge
 * Mozilla Firefox
 * Opera
+
+As part of this testing, the following were tested and no issues were found:
+ * All internal links function as expected
+ * Scroll-padding property correctly applied
+ * All features function as expected
+ * All external links function as expected and they open in new tabs
+
+The website was also manually tested on iPhone 12, iPhone XR, iPad 8, HP Elitebook 840, and Dell XPS. No issues were found.
 
 ### Responsiveness
 Responsiveness design tests were executed using [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and no issues were found. This included the following devices:
