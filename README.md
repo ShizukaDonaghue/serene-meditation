@@ -210,7 +210,7 @@ As part of this testing, the following were tested and no issues were found:
  * All external links function as expected and they open in new tabs
  * All features function as expected
  * Scroll-padding property correctly applied for the fixed navigation bar
- * The form inputs validated - empty fields were not allowed and only correct email address format was accepted
+ * The form inputs validated - empty fields are not allowed and only correct email address format is accepted
  * Responsiveness to different screen sizes - images, quotes, font sizes, margins, and overall spacing
 
 The website was also manually tested on iPhone 12, iPhone XR, iPad 8, HP Elitebook 840, and Dell XPS for the above. No issues were found.
