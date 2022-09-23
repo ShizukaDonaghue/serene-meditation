@@ -36,12 +36,12 @@ Wireframes for tablets:<br>
 
 <img src="docs/images/wireframe-for-tablet.png" alt="Image showing the wireframe for tablets" width=500>
 
-Wireframes for desktop:<br>
+Wireframe for desktop:<br>
 
 <img src="docs/images/wireframe-for-desktop.png" alt="Image showing the wireframe for tablets" width=350>
 
 ### Website Structure
-Serene Meditation consists of two HTML pages. The layout of the website is simple and consistent full page scroll with a fixed navigation bar at the top. The intention for this simple design is to have a clean and uncluttered website in which the user can feel calm and peaceful. 
+Serene Meditation consists of two HTML pages. The layout of the website is simple and consistent full-page scroll with a fixed navigation bar at the top. The intention for this simple design is to have a clean and uncluttered website in which the user can feel calm and peaceful. 
 
 The main page is the default landing page and the second page is accessible when the user submits a message from the main page to thank them for their message. There are five sections within the main page and they are also accessible from the navigation bar to bring the user to a specific section of the page. 
 
@@ -59,14 +59,14 @@ Detailed alt attribute is included for each image to describe the scenery. The i
 ### Colour Scheme
 The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and the surrounding sky pink. The colours chosen are gentle and calming to suit the purpose of the website and to promote a sense of peace and calm in the user.
 
-The background colour for the website is pale pink F3E4E4 as soft pink colours are known to promote tranquillity and peace. The font for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
+The background colour for the website is pale pink F3E4E4 as soft pink colours promote tranquillity and peace. The colour of texts for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
 
 Colour palette generated using [Coolors.co](https://coolors.co/):
 
 <img src="docs/images/colour-palette.jpg" alt="Image showing the colours used for the website" width=600>
 
 ### Typography
-There are two fonts used in the website and they are imported from [Google Fonts](https://fonts.google.com/). For the main body of the text, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
+There are two fonts used in the website and they are imported from [Google Fonts](https://fonts.google.com/). For the main body of the texts, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
 
 ## Features
 ### Existing Features
@@ -152,7 +152,7 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 * [Git](https://git-scm.com/) was used for version control and tracked changes in the codes.
 * [GitHub](https://github.com/) was used to store the codes and deploy the website.
 * [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) were used extensively while adjusting the objects in the website for different screen sizes. 
-* The website was validated using [W3C HTML Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+* The website was fully validated using [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 * [Balsamiq](https://balsamiq.com/) was used to generate wireframes.
 * [Am I responsive?](https://ui.dev/amiresponsive) was used to generate the mockup image showing the website on various screen sizes.
 * The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/). 
@@ -160,7 +160,7 @@ When hovering over the "Home" button with the cursor, the cursor changes to the 
 * The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website loads quickly.
 * The colour scheme ideas and actual colour palette were generated with [Coolors.co](https://coolors.co/).
 * Images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website loads quickly.
-* [Grammarly](https://app.grammarly.com/) was used to fix grammatical errors across the project.
+* [Grammarly](https://app.grammarly.com/) was used to fix grammatical errors across the website.
 
 ## Testing
 ### Code Validation
@@ -224,15 +224,15 @@ Responsiveness design tests were executed using [Chrome Dev Tools](https://devel
 * Nest Hub and Hub Max
 
 ### User Stories
-All user stories have been tested and addressed as follows:
+All user stories were tested and addressed as follows:
 
 * *I would like the website to be visually appealing and gives me a sense of peace and calm.*<br>
     
-    The website is clean and uncluttered. The colours chosen for the website are gentle and calming.  The background colour is pale pink as soft pink colours are known to promote tranquillity and peace. The images are also chosen to suit the colour scheme and the purpose of the website.
+    The website is clean and uncluttered. The colours chosen for the website are gentle and calming. The background colour is pale pink as soft pink colours promote tranquillity and peace. The images are also carefully chosen to suit the colour scheme and the purpose of the website.
 
 * *I would like to be able to navigate easily through the website.*
 
-    The layout of the website is simple and consistent full page scroll with a fixed navigation bar at the top. The user can easily navigate to a specific section of the website from the navigation bar. When the user starts scrolling, the "Back to Top" button appears at the bottom right-hand corner and the user can quickly go back to the top of the main page. 
+    The layout of the website is simple and consistent full-page scroll with a fixed navigation bar at the top. The user can easily navigate to a specific section of the website from the navigation bar. When the user starts scrolling, the "Back to Top" button appears at the bottom right-hand corner and the user can quickly go back to the top of the main page. 
     
     When the user submits a message, the second page opens to thank them for their message. The same navigation bar is available on the second page and this page also includes the "Home" button so that the user can easily go back to the main page after submitting a message.  
 
@@ -275,7 +275,7 @@ Image showing the "Submit" button in Firefox:
 
 This has been resolved by adding value="Submit" to the input element.
 
-Image showing the "Submit" button after the fix in Firefox:
+Image showing the "Submit" button after the fix:
 
 <img src="docs/images/submit-button-firefox-after-fix.png" alt="Image showing the submit button in Firefox" width=130>
 
@@ -298,7 +298,7 @@ The live link can be found here - [Serene Meditation](https://shizukadonaghue.gi
 <img src="docs/images/deploy-to-github-image.png" width=700>
 </details>
 
-1. Navigate to the "Setting" tab in the GitHub repository.
+1. Navigate to the "Settings" tab in the GitHub repository.
 2. Select "Pages" from the menu on the left.
 3. Under the "Source" section, select "Deploy from a branch" and "Branch: main." Click on "Save."
 4. GitHub takes a short while to publish the website. Refresh the page, if not done automatically, and once the website is deployed, the URL will be displayed.  
